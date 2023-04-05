@@ -1,11 +1,9 @@
 {
   "wallpaper": "",
-  "spider": "./custom_spider.jar;md5;a56b79b1ecdae92ed7fc12187ae122b6",
+  "spider": "./custom_spider.jar;md5;cd3ef08f96987e7e35beb1d19e2fdaaf",
   "sites": [
-        
-        //{"key":"豆瓣","name":"🅿️豆瓣","type":4,"searchable":1,"quickSearch":1,"filterable":1,"api":"https://t4.饭太硬.ml/vod"},
         {"key":"py_douban","name":"豆瓣","type":3,"api":"py_douban","searchable":1,"quickSearch":1,"filterable":1,"ext":"./douban.py"},
-        {"key":"T4-Zdytv","name":"看4k","type":4,"api":"http://81.68.89.191:16888/Php/zdytv.php","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
+      //{"key":"T4-Zdytv","name":"看4k","type":4,"api":"http://81.68.89.191:16888/Php/zdytv.php","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
         {"key":"csp_Czsapp","name":"厂长","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_Kunyu77","name":"鲲娱","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
         {"key":"csp_Kuaikan","name":"快看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},

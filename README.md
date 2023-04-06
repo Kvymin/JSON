@@ -1,3 +1,5 @@
+##  kvymin.github.io/TVRule/config.json
+
 ##XBiubiu规则
 ------------------
 ### XBiubiu `使用方法`

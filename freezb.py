@@ -1,4 +1,4 @@
-#coding=utf-8
+﻿#coding=utf-8
 #!/usr/bin/python
 import sys
 sys.path.append('..')
@@ -34,9 +34,44 @@ class Spider(Spider):  # 元类 默认的元类 type
 		if(filter):
 			result['filters'] = self.config['filter']
 		return result
+
+	def get_homeVideoContent(self, tidDict):
+		videos = []
+		isfolder = True
+		tid = tidDict['type_id']
+		try:
+			res = self.categoryContent(tid, pg=1, filter=False, extend={})
+		except:
+			return {}, False
+		if 'type_flag' in tidDict and len(res) != 0:
+			resList = res['list']
+			result = {}
+			for rL in resList:
+				if rL['vod_tag'] == 'file':
+					videos.append(rL)
+			result['list'] = videos
+			result['page'] = 1
+			result['pagecount'] = 1
+			result['limit'] = 999
+			result['total'] = 999999
+		elif len(res) == 0:
+			isfolder = False
+			result = {}
+		else:
+			isfolder = False
+			result = res
+		if len(videos) == 0:
+			result = res
+		return result, isfolder
+
 	def homeVideoContent(self):
-		result = self.categoryContent('', 1, False, {})
+		tidDict = self.homeContent(False)['class'][0]
+		result, isfolder = self.get_homeVideoContent(tidDict)
+		while isfolder:
+			tidDict = {'type_flag': '1', 'type_id': result['list'][0]['vod_id']}
+			result, isfolder = self.get_homeVideoContent(tidDict)
 		return result
+
 	def categoryContent(self,tid,pg, filter,extend):
 		result = {}
 		if int(pg) > 1:
@@ -91,11 +126,11 @@ class Spider(Spider):  # 元类 默认的元类 type
 			if 'vid/{}'.format(i) not in rsp.text:
 				title = '比赛尚未开始'
 				purl = ''
-				break
+				return {}
 			if not '\'url\': ' in rsp.text:
 				title = '比赛尚未开始'
 				purl = ''
-				break
+				return {}
 			else:
 				purl = self.regStr(reg=r"\'url\': \"(.*?)\"", src=rsp.text)
 				title = self.regStr(reg=r"\"title\": \"(.*?)\"", src=rsp.text)

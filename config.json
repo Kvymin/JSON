@@ -1,6 +1,6 @@
 {
   "wallpaper": "",
-  "spider": "./custom_spider.jar;md5;c87dedef386f633da4f3b0f4d1dc3579",
+  "spider": "./custom_spider.jar;md5;14dd646d9955054157e0690c80f1bfe2",
   "sites": [
         {"key":"py_douban","name":"豆瓣","type":3,"api":"py_douban","searchable":1,"quickSearch":1,"filterable":1,"ext":"./douban.py"},    
         {"key":"csp_Czsapp","name":"厂长","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.czzy03.com"},

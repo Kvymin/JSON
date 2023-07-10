@@ -3,7 +3,7 @@
 "wallpaper":"", 
 
 "sites":[
-    {"key":"py_douban","name":"豆瓣","type":3,"api":"py_douban","changeable":1,"searchable":1,"ext":"./pyramid/douban.py"},
+  {"key":"py_douban","name":"豆瓣","type":3,"api":"py_douban","changeable":1,"searchable":1,"ext":"./douban.py"},
   {"key":"傢伙","name":"糖糖","type":4,"api":"https://php.iptv.hz.cz/moguys.php","searchable":1,"changeable":1},
   {"key":"csp_YGP","name":"新片场","type":3,"api":"csp_YGP","searchable":1,"quickSearch":1,"changeable":0},
   {"key":"csp_DuoX","name":"多线","type":3,"api":"csp_DuoX","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://1.117.111.78:93/home/api?type=ys&uid=230629&key=公众号【影视范】&url="},  

@@ -3,8 +3,8 @@
   "wallpaper":"", 
 
  "sites":[
-  {"key":"豆瓣","name":"🎧豆瓣┃点评","type":3,"api":"./JavaScript/libs/drpy2.min.js","changeable":1,"searchable":0,"ext":"./JavaScript/drpy.js"},
-  
+  {"key":"豆瓣","name":"🎧豆瓣┃点评","type":3,"api": "http://xhww.fun:63/js/drpy1.min.js","changeable":1,"searchable":0,"ext": "http://smallmi.xiaohewanwan.love:63/drpy.js"},
+
 {"key":"YGP","name":"🚀荐影┃速递","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0},
 {"key":"csp_WoGG","name":"👽阿里┃4K","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"https://sharetoken.lm317379829.repl.co/token?iv=1&key=1+4k|auto|fhd$$$http://tvfan.xxooo.cf/"},
 

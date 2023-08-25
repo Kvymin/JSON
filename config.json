@@ -25,6 +25,7 @@
 {"key":"陌陌","name":"🍄陌陌┃App","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://guan.yy365.vip/api.php/app/"},
 {"key":"奇奇","name":"🍓奇奇┃App","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://ttsp.live/api.php/app/"},{"key":"奇奇","name":"🍓奇奇┃App","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://ttsp.live/api.php/app/"},
 
+{"key":"fantuan","name":"🍙饭团┃直连","type":3,"api":"csp_Fantuan","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.fantuan3.com"},
 {"key":"Lib","name":"🌟利播┃直连","type":3,"api":"csp_Libvio","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.libvio.fun/"},
 {"key":"Xinsj","name":"👓视觉┃直连","type":3,"api":"csp_Xinsj","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.6080yy3.com/"},
 {"key":"kuaikan","name":"👀快看┃App","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"changeable":1},

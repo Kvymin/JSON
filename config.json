@@ -29,7 +29,7 @@
 {"key":"陌陌","name":"🍄陌陌┃App","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.kuin.one/api.php/app/"},
 {"key":"奇奇","name":"🍓奇奇┃App","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://mp4.ghlyys.com/api.php/app/"},
   
-{"key":"贱贱","name":"🐭荐片┃p2p","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"https://agit.ai/kvymin/TV/raw/branch/master/JavaScript/libs/drpy2.min.js","ext":"https://agit.ai/kvymin/TV/raw/branch/master/JavaScript/荐片.js"},
+{"key":"贱贱","name":"🐭荐片┃p2p","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"https://agit.ai/kvymin/TV/raw/branch/master/JavaScript/lib/drpy2.min.js","ext":"https://agit.ai/kvymin/TV/raw/branch/master/JavaScript/荐片.js"},
 {"key":"新6V","name":"🧲SixV┃磁力","type":3,"api":"csp_SixV","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://www.xb6v.com/"},
 
 {"key":"Bili","name":"🅱哔哔┃合集","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":"https://agit.ai/kvymin/TV/raw/branch/master/json/bili.json"},

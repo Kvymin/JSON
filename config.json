@@ -8,8 +8,7 @@
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
+      "changeable": 0
     },
     {
       "key": "WoGG",
@@ -17,7 +16,6 @@
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$关"
     },
@@ -27,7 +25,6 @@
       "type": 3,
       "api": "csp_YGP",
       "searchable": 0,
-      "quickSearch": 0,
       "changeable": 0
     },
     {
@@ -48,9 +45,7 @@
       "name": "南瓜┃App",
       "type": 3,
       "api": "csp_NanGua",
-      "playerType": 2,
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -58,9 +53,7 @@
       "name": "厂长┃直连",
       "type": 3,
       "api": "csp_Czsapp",
-      "playerType": 2,
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
       "ext": "https://www.czzy88.com/"
     },
@@ -70,7 +63,6 @@
       "type": 3,
       "api": "csp_Kunyu77",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -133,7 +125,6 @@
       "type": 3,
       "api": "csp_YQKan",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -142,7 +133,6 @@
       "type": 3,
       "api": "csp_Zxzj",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
       "ext": "https://www.zxzj.pro/"
     },
@@ -152,7 +142,6 @@
       "type": 3,
       "api": "csp_MLYS",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
       "ext": "https://www.maolvys.com/"
     },
@@ -162,7 +151,6 @@
       "type": 3,
       "api": "csp_MYYS",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
       "ext": "http://rzys.xyz"
     },
@@ -172,7 +160,6 @@
       "type": 3,
       "api": "csp_Auete",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
       "ext": "https://haozhansou.com/"
     },
@@ -181,20 +168,16 @@
       "name": "快影┃YsV2",
       "type": 3,
       "api": "csp_AppYsV2",
-      "playerType": 2,
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
       "ext": "http://iosa.xn--654a.cc/api.php/app/"
     },
     {
       "key": "迪迪",
-      "name": "迪迪┃YsV2",
+      "name": "安迪┃YsV2",
       "api": "csp_AppYsV2",
       "type": 3,
-      "playerType": 2,
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
       "ext": "https://api123.adys.app/xgapp.php/v3/"
     },
@@ -204,7 +187,6 @@
       "type": 3,
       "api": "csp_Xinsj",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
       "ext": "https://www.hdmyy.com/"
     },
@@ -214,20 +196,7 @@
       "type": 3,
       "api": "csp_Bttwoo",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
-    },
-    {
-      "key": "YTVIP",
-      "name": "影探┃App",
-      "type": 3,
-      "playerType": "1",
-      "api": "csp_YTVIP",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "timeout": 30,
-      "ext": "vip.lyyytv.cn"
     },
     {
       "key": "Libvio",
@@ -235,7 +204,6 @@
       "type": 3,
       "api": "csp_Libvio",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
       "ext": "https://www.libvio.pro/"
     },
@@ -245,7 +213,6 @@
       "type": 3,
       "api": "csp_Ddrk",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -254,7 +221,6 @@
       "type": 3,
       "api": "csp_Nmys",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1,
       "ext": "https://jihulab.com/kvymin/TVRule/-/raw/main/json/nmys.json"
     },
@@ -263,9 +229,7 @@
       "name": "可乐┃直连",
       "type": 3,
       "api": "csp_Cokemv",
-      "playerType": 2,
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -284,8 +248,7 @@
       "type": 3,
       "api": "csp_SP33",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 1,
       "changeable": 0
     },
     {
@@ -294,7 +257,6 @@
       "type": 3,
       "api": "csp_SixV",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 0,
       "ext": "http://www.xb6v.com/"
     },
@@ -304,7 +266,6 @@
       "type": 3,
       "api": "csp_Dm84",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -313,7 +274,6 @@
       "type": 3,
       "api": "csp_Ying",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -322,7 +282,6 @@
       "type": 3,
       "api": "csp_Ysj",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -331,7 +290,6 @@
       "type": 3,
       "api": "csp_Anime1",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -340,7 +298,6 @@
       "type": 3,
       "api": "csp_Yj1211",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -349,7 +306,6 @@
       "type": 3,
       "api": "csp_FirstAid",
       "searchable": 0,
-      "quickSearch": 0,
       "changeable": 0,
       "style": {
         "type": "rect",
@@ -362,7 +318,6 @@
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
     },
@@ -372,7 +327,6 @@
       "type": 3,
       "api": "csp_Zhaozy",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$fanty$$$qqq111"
     },
@@ -382,7 +336,6 @@
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
     },
@@ -392,7 +345,6 @@
       "type": 3,
       "api": "csp_UpYun",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
     },
@@ -402,7 +354,6 @@
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
     },
@@ -412,7 +363,6 @@
       "type": 3,
       "api": "csp_Dovx",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
     },
@@ -422,7 +372,7 @@
       "type": 3,
       "api": "csp_Push",
       "searchable": 0,
-      "quickSearch": 0,
+      "changeable": 0,
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
     },
     {
@@ -431,7 +381,6 @@
       "type": 3,
       "api": "csp_NiNi",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -440,7 +389,6 @@
       "type": 3,
       "api": "csp_Tangrenjie",
       "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -453,7 +401,7 @@
       },
       "api": "http://120.53.102.254/dsp16",
       "searchable": 1,
-      "filterable": 1
+      "changeable": 1
     },
     {
       "key": "AList",

@@ -253,8 +253,7 @@
       "type": 3,
       "api": "csp_SP33",
       "searchable": 1,
-      "changeable": 1,
-      "changeable": 0
+      "changeable": 1
     },
     {
       "key": "SixV",

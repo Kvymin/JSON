@@ -188,19 +188,15 @@
             "key": "huya",
             "name": "虎牙",
             "type": 3,
-            "api": "./CatVod/huya_open.js",
-            "ext": {
-                "categories": "科技#旅游#娱乐天地#一起看#颜值#二次元#星秀#音乐#原创#网游竞技#单机热游#综合手游"
-            }
+            "api": "./quickjs/libs/drpy2.min.js",
+            "ext": "./quickjs/虎牙直播.js"
         },
         {
             "key": "douyu",
             "name": "斗鱼",
             "type": 3,
-            "api": "./CatVod/douyu_open.js",
-            "ext": {
-                "categories": "数码科技#娱乐推荐#颜值#二次元#星秀#音乐#正能量#原创IP#热门游戏#热门手游#主机游戏#怀旧游戏#王者荣耀"
-            }
+            "api": "./quickjs/libs/drpy2.min.js",
+            "ext": "./quickjs/斗鱼直播.js"
         },
         {
             "key": "bili_open",

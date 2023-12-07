@@ -4,7 +4,7 @@
             "key": "豆瓣",
             "name": "豆瓣",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "changeable": 1,
             "searchable": 0,
             "ext": "./quickjs/drpy.js"
@@ -45,7 +45,7 @@
             "key": "drpy_js_磁力熊",
             "name": "磁力",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/磁力熊.js"
         },
         {
@@ -53,21 +53,21 @@
             "name": "世界",
             "type": 3,
             "playerType": "1",
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/4khdr.js"
         },
         {
             "key": "drpy_js_南瓜影视",
             "name": "南瓜",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/南瓜影视.js"
         },
         {
             "key": "drpy_js_酷云77",
             "name": "七七",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/酷云77.js"
         },
         {
@@ -75,7 +75,7 @@
             "name": "八号",
             "type": 3,
             "playerType": "1",
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/8号影院.js"
         },
         {
@@ -83,105 +83,105 @@
             "name": "荐片",
             "type": 3,
             "playerType": "1",
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/荐片.js"
         },
         {
             "key": "drpy_js_厂长资源",
             "name": "厂长",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/厂长资源.js"
         },
         {
             "key": "drpy_js_快看影视",
             "name": "快看",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/快看影视.js"
         },
         {
             "key": "drpy_js_农民影视",
             "name": "农民",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/农民影视.js"
         },
         {
             "key": "drpy_js_花猫TV",
             "name": "花猫",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/花猫TV.js"
         },
         {
             "key": "drpy_js_骚火电影",
             "name": "骚火",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/骚火电影.js"
         },
         {
             "key": "drpy_js_畅梦影视",
             "name": "畅梦",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/畅梦影视.js"
         },
         {
             "key": "drpy_js_子子影视",
             "name": "子子",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/子子影视.js"
         },
         {
             "key": "drpy_js_TV云播",
             "name": "云播",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/TV云播.js"
         },
         {
             "key": "drpy_js_宅腐影视",
             "name": "宅腐",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/宅腐影视.js"
         },
         {
             "key": "drpy_js_新视觉影视",
             "name": "视觉",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/新视觉影视.js"
         },
         {
             "key": "drpy_js_auete",
             "name": "爱看",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/auete.js"
         },
         {
             "key": "drpy_js_cokemv",
             "name": "可乐",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/cokemv.js"
         },
         {
             "key": "drpy_js_libvio",
             "name": "利播",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/libvio.js"
         },
         {
             "key": "drpy_js_Bttwoo",
             "name": "两个",
             "type": 3,
-            "api": "./quickjs/lib/drpy2.min.js",
+            "api": "./quickjs/libs/drpy2.min.js",
             "ext": "./quickjs/Bttwoo.js"
         },
         {

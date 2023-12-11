@@ -31,7 +31,7 @@
       "key": "py_cctv_集合",
       "name": "央视┃集合",
       "type": 3,
-      "api": "./json/py_cctv.py",
+      "api": "./pyramid/py_cctv.py",
       "style": {
         "type": "rect",
         "ratio": 1.485

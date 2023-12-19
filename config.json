@@ -1,5 +1,5 @@
 {
-  "spider": "./custom_spider.jar;md5;3a1219034ed657f925c606543689b8cf",
+  "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/TVRule/main/custom_spider.jar;md5;3a1219034ed657f925c606543689b8cf",
   "wallpaper": "",
   "sites": [
     {
@@ -31,7 +31,7 @@
       "key": "py_cctv_集合",
       "name": "央视┃集合",
       "type": 3,
-      "api": "./pyramid/py_cctv.py",
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/TVRule/main/pyramid/py_cctv.py",
       "style": {
         "type": "rect",
         "ratio": 1.485
@@ -81,7 +81,7 @@
       "api": "csp_Nmys",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./json/nmys.json"
+      "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/TVRule/main/json/nmys.json"
     },
     {
       "key": "毛驴",
@@ -371,19 +371,6 @@
       "api": "csp_Tangrenjie",
       "searchable": 1,
       "changeable": 1
-    },
-    {
-      "key": "Bili",
-      "name": "哔哔┃合集",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "./json/bilibili.json"
     }
   ],
   "parses": [

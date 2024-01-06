@@ -1,33 +1,6 @@
 {
-    "spider": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/custom_spider.jar?ref=master;md5;aeb168169682631c93874c9bd8a97e74",
+    "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/TVRule/main/custom_spider.jar;md5;aeb168169682631c93874c9bd8a97e74",
     "wallpaper": "",
-    "lives": [
-        {
-            "name": "直播┃电视",
-            "type": 1,
-            "url": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/tvlive/live.json?ref=master",
-            "playerType": 1,
-            "ua": "okhttp/3.15",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "央视┃嗅探",
-            "type": 0,
-            "url": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/tvlive/ccnt.m3u?ref=master",
-            "playerType": 1,
-            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
-            "timeout": 40,
-            "boot": false
-        },
-        {
-            "name":"直播┃组播",
-            "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
-            "type":0,
-            "timeout": 20,
-            "url":"https://www.gitlink.org.cn/api/kvymin/TVRule/raw/tvlive/live.m3u?ref=master"
-        }
-    ],
     "sites": [
         {
             "key": "豆豆",
@@ -51,20 +24,21 @@
             "name": "荐影┃速递",
             "type": 3,
             "api": "csp_YGP",
-            "searchable": 1,
+            "searchable": 0,
             "changeable": 0
         },
         {
             "key": "py_cctv_集合",
             "name": "央视┃集合",
             "type": 3,
-            "api": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/pyramid/py_cctv.py?ref=master",
+            "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/TVRule/main/pyramid/py_cctv.py",
             "style": {
                 "type": "rect",
                 "ratio": 1.485
             },
             "searchable": 1,
-            "changeable": 0
+            "changeable": 0,
+            "ext": ""
         },
         {
             "key": "Czsapp",
@@ -73,18 +47,10 @@
             "api": "csp_Czsapp",
             "searchable": 1,
             "changeable": 1,
-            "ext": "https://www.czzy66.com/"
+            "ext": "https://czzy66.com/"
         },
         {
-            "key": "NanGua",
-            "name": "南瓜┃App",
-            "type": 3,
-            "api": "csp_NanGua",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Kunyu77",
+            "key": "77",
             "name": "七七┃App",
             "type": 3,
             "api": "csp_Kunyu77",
@@ -92,13 +58,39 @@
             "changeable": 1
         },
         {
-            "key": "九六",
-            "name": "九六┃直连",
+            "key": "南瓜",
+            "name": "南瓜┃App",
             "type": 3,
-            "api": "csp_Cs1369",
-            "playerType": 2,
+            "api": "csp_NanGua",
             "searchable": 1,
             "changeable": 1
+        },
+        {
+            "key": "MYYS",
+            "name": "蚂蚁┃App",
+            "type": 3,
+            "api": "csp_MYYS",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "http://rzys.xyz"
+        },
+        {
+            "key": "csp_Nmys",
+            "name": "农民┃直连",
+            "type": 3,
+            "api": "csp_Nmys",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/TVRule/main/json/nmys.json"
+        },
+        {
+            "key": "毛驴",
+            "name": "毛驴┃直连",
+            "type": 3,
+            "api": "csp_MLYS",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "https://www.maolvys.com/"
         },
         {
             "key": "Hmys",
@@ -108,34 +100,16 @@
             "playerType": 1,
             "searchable": 1,
             "changeable": 1,
-            "ext": "https://m.sshbhz.com"
+            "ext": "https://m.jmzp.net.cn"
         },
         {
-            "key": "Nmys",
-            "name": "农民┃直连",
+            "key": "九六",
+            "name": "九六┃直连",
             "type": 3,
-            "api": "csp_Nmys",
+            "api": "csp_Cs1369",
+            "playerType": 2
             "searchable": 1,
-            "changeable": 1,
-            "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/nmys.json?ref=master"
-        },
-        {
-            "key": "MYYS",
-            "name": "忍者┃直连",
-            "type": 3,
-            "api": "csp_MYYS",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": "http://rzys.xyz"
-        },
-        {
-            "key": "MLYS",
-            "name": "毛驴┃直连",
-            "type": 3,
-            "api": "csp_MLYS",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": "https://www.maolvys.com/"
+            "changeable": 1
         },
         {
             "key": "嘿嘿",
@@ -175,7 +149,7 @@
             "ext": "FbjDcUxPqpfNr0QF4QvE6sExbd4UXJxJXzdL462ywU1XScGa5G6Hj0/c+Ou1GW6rdX6N2XIhnD46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddkacwFqHtLjQhalHqIy0+kpiTv2eOfJYxTshgrxcJ+g3lEHx7ZLC9kB1TCfZUSHwqHB3tt6V/1OhRENIOZNRFfXVBEFd7jQg+J06kjCAF7z1Bt8hRvMjC2VcbQXsEz8MCZDgu06C9/wirWcTa/wWJsfT+Z7fXaDs+dIWMYiwf6td5CWTx6LfL6eTuiMhs2KU5Byw9F+4Y/AHBg4r+LEe+Hm4EM2d8X3ca5zHSj+kjmpXOiGDo4TalFqgTq67eggmthCbV2d131SKc03V+5gruudQQk/Tb9e4lg6SQhA9/5kWOOM/LRmkqIxSt6d0wpu7yKKh65enwKbgasc93/HnGr6W4LuZjf6eYnS2GgRzWRE0fT5lYNmxnWeRnYuLhoZbDqslAfJzg"
         },
         {
-            "key": "YQKan",
+            "key": "一起看 ",
             "name": "一起┃App",
             "type": 3,
             "api": "csp_YQKan",
@@ -219,25 +193,7 @@
             "ext": "http://app.zhaifutvapp.com/ruifenglb_api.php/v1.vod"
         },
         {
-            "key": "ytvip",
-            "name": "探影┃YsV2",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "ext": "http://vvvipcms.lyyytv.cn/api.php/app/",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "Xinsj",
-            "name": "视觉┃直连",
-            "type": 3,
-            "api": "csp_Xinsj",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": "https://www.80yy1.com/"
-        },
-        {
-            "key": "Bttoo",
+            "key": "csp_Bttoo",
             "name": "比特┃直连",
             "type": 3,
             "api": "csp_Bttwoo",
@@ -245,7 +201,7 @@
             "changeable": 1
         },
         {
-            "key": "Libvio",
+            "key": "Lib",
             "name": "利播┃直连",
             "type": 3,
             "api": "csp_Libvio",
@@ -258,8 +214,18 @@
             "name": "低端┃直连",
             "type": 3,
             "api": "csp_Ddrk",
+            "playerType": "2",
             "searchable": 1,
             "changeable": 1
+        },
+        {
+            "key": "Xinsj",
+            "name": "视觉┃直连",
+            "type": 3,
+            "api": "csp_Xinsj",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "https://www.hdmyy.com/"
         },
         {
             "key": "Cokemv",
@@ -270,39 +236,21 @@
             "changeable": 1
         },
         {
-            "key": "SixV",
+            "key": "csp_SP33",
+            "name": "三三┃解析",
+            "type": 3,
+            "api": "csp_SP33",
+            "searchable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "新6V",
             "name": "SixV┃磁力",
             "type": 3,
             "api": "csp_SixV",
             "searchable": 1,
             "changeable": 0,
             "ext": "http://www.xb6v.com/"
-        },
-        {
-            "key": "小胡",
-            "name": "同学｜小胡",
-            "type": 1,
-            "api": "http://c.小胡.icu/api.php/provide/vod/",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
-            "key": "drpy_js_荐片",
-            "name": "荐片┃drpy",
-            "type": 3,
-            "api": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/quickjs/lib/drpy2.min.js?ref=master",
-            "searchable": 1,
-            "changeable": 1,
-            "playerType": 1,
-            "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/quickjs/荐片.js?ref=master"
-        },
-        {
-            "key": "SP33",
-            "name": "360┃解析",
-            "type": 3,
-            "api": "csp_SP33",
-            "searchable": 1,
-            "changeable": 1
         },
         {
             "key": "csp_Dm84",
@@ -416,7 +364,6 @@
             "type": 3,
             "api": "csp_Push",
             "searchable": 0,
-            "changeable": 0,
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
         },
         {
@@ -443,9 +390,9 @@
             "url": "Demo"
         },
         {
-            "name": "饭大",
+            "name": "饭太",
             "type": 1,
-            "url": "http://api.888484.xyz/神秘哥哥/super.php?v=",
+            "url": "http://api.888484.xyz/jiexi/米太硬.php?url=",
             "ext": {
                 "flag": [
                     "qq",
@@ -508,50 +455,6 @@
             }
         }
     ],
-    "doh": [
-        {
-            "name": "Google",
-            "url": "https://dns.google/dns-query",
-            "ips": [
-                "8.8.4.4",
-                "8.8.8.8"
-            ]
-        },
-        {
-            "name": "Cloudflare",
-            "url": "https://cloudflare-dns.com/dns-query",
-            "ips": [
-                "1.1.1.1",
-                "1.0.0.1",
-                "2606:4700:4700::1111",
-                "2606:4700:4700::1001"
-            ]
-        },
-        {
-            "name": "AdGuard",
-            "url": "https://dns.adguard.com/dns-query",
-            "ips": [
-                "94.140.14.140",
-                "94.140.14.141"
-            ]
-        },
-        {
-            "name": "DNSWatch",
-            "url": "https://resolver2.dns.watch/dns-query",
-            "ips": [
-                "84.200.69.80",
-                "84.200.70.40"
-            ]
-        },
-        {
-            "name": "Quad9",
-            "url": "https://dns.quad9.net/dns-quer",
-            "ips": [
-                "9.9.9.9",
-                "149.112.112.112"
-            ]
-        }
-    ],
     "rules": [
         {
             "name": "proxy",
@@ -570,15 +473,6 @@
                 ".*boku.*",
                 ".*nivod.*",
                 ".*ulivetv.*"
-            ]
-        },
-        {
-            "name": "毛驢",
-            "hosts": [
-                "www.maolvys.com"
-            ],
-            "script": [
-                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
             ]
         },
         {
@@ -673,8 +567,7 @@
             ],
             "regex": [
                 "25.0666",
-                "25.08",
-                "20.52"
+                "25.08"
             ]
         },
         {
@@ -733,6 +626,15 @@
             ]
         },
         {
+            "name": "毛驢",
+            "hosts": [
+                "www.maolvys.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+            ]
+        },
+        {
             "name": "磁力",
             "hosts": [
                 "magnet"
@@ -746,5 +648,32 @@
     ],
     "ads": [
         "static-mozai.4gtv.tv"
+    ],
+    "lives": [
+        {
+            "name": "直播┃聚播",
+            "type": 1,
+            "url": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/tvlive/live.json?ref=master",
+            "playerType": 1,
+            "ua": "okhttp/3.15",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "直播┃组播",
+            "type": 0,
+            "url": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/tvlive/live.m3u?ref=master",
+            "playerType": 1,
+            "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+            "timeout": 20
+        },
+        {
+            "name": "央视┃嗅探",
+            "type": 0,
+            "url": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/tvlive/ccnt.m3u?ref=master",
+            "playerType": 1,
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+            "timeout": 40
+        }
     ]
 }

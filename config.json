@@ -1,5 +1,5 @@
 {
-    "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/TVRule/main/custom_spider.jar;md5;4ceefaa8f9f80595929da0af9159645b",
+    "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/TVRule/main/custom_spider.jar;md5;c774c41f98e151b33aa70e525b38164a",
     "wallpaper": "",
     "sites": [
         {
@@ -102,6 +102,15 @@
             "changeable": 1
         },
         {
+            "key": "小柚",
+            "name": "柚子┃App",
+            "type": 3,
+            "api": "csp_AppSK",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "FbjPcVZY48PN/RIZ5QqOrsp7JoZYCZdLEy9R9ri6ykNdUNSIsT3IgxCP9qyzByO7ZG6Z030vgWoyXGNlCJx9KFpYXtyZ3B/cLTtO0SAclaw3AOm0fS9oLx2taGF6hg=="
+        },
+        {
             "key": "萌米",
             "name": "萌米┃App",
             "type": 3,
@@ -136,7 +145,7 @@
             "api": "csp_AppMao",
             "searchable": 1,
             "changeable": 1,
-            "ext": "FbjCcU1KqpC5pkRX4Q3D+NciPclIFs4EHzRV89m3pENRS6PivxPrlXvH/4efUSWwUCWwwk8srkIDSXN9RIJkSCZPJqnRikLRakBH0XBB6uNlX6XgMjhUKBTbBXopnsWdvXX6OowIBLQ78wghs3yRbgJxOYvrglBVIeI4cTcDGxixtMJ+yL0zE9g1d+N2RH4JERZh3CoYXSO1hH420ARbjt08lerroREmfGoT8JEGfTFW3MrK3hWueIyRsyOllsiwNM6dXSwTArm5em8Lv8ppXgro"
+            "ext": "FbjCcU1KqpC5pkRX4Q3D+NciPclIFs4EHzRV89m3pENRS6PivxPrlXvH/4efUSWwUCWwwk8srkIDSXN9RIJkSCZPJqnRikLRakBH0XBB6uNlX6XgMjhUKBTbBXopnsWdvXX6OowIBLQ78wghs3yRbgJxOYvrglBVIeI4cTcDGxixtMJ+yL0zE9g1d+N2RH4JERZh3CoYXSO1hH420ARbjt08lerroREmfGoT8JEGfTFW3MrK3hWueIyRsyOllsj/P87VXSxEVLnwNm4fos8lCFL74+azvs61n89svqg="
         },
         {
             "key": "电影",
@@ -146,16 +155,6 @@
             "searchable": 1,
             "changeable": 1,
             "ext": "FbjPcVZY48PN/RIZ5QqOrspkJ4ZHF98MCHVX87i5y01XUNSIsT3IgxCP9qyzByO7aWmK03MmmHYwQmNlCJx9KFpYWNSc3hbeLTlD3SAclaw3AOnn"
-        },
-        {
-            "key": "繁星",
-            "name": "繁星┃App",
-            "type": 3,
-            "api": "csp_AppMao",
-            "playerType": 2,
-            "searchable": 1,
-            "changeable": 1,
-            "ext": "FbjDcUxPqpfNr0QF4QvE6sExbd4UXJxJXzdL462ywU1XScGa5G6Hj0/c+Ou1GW6rdX6N2XIhnD46QzIsRoZ8bk4fG4OYi0iCaWwRj2ddkacwFqHtLjQhalHqIy0+kpiTv2eOfJYxTshgrxcJ+g3lEHx7ZLC9kB1TCfZUSHwqHB3tt6V/1OhRENIOZNRFfXVBEFd7jQg+J06kjCAF7z1Bt8hRvMjC2VcbQXsEz8MCZDgu06C9/wirWcTa/wWJsfT+Z7fXaDs+dIWMYiwf6td5CWTx6LfL6eTuiMhs2KU5Byw9F+4Y/AHBg4r+LEe+Hm4EM2d8X3ca5zHSj+kjmpXOiGDo4TalFqgTq67eggmthCbV2d131SKc03V+5gruudQQk/Tb9e4lg6SQhA9/5kWOOM/LRmkqIxSt6d0wpu7yKKh65enwKbgasc93/HnGr6W4LuZjf6eYnS2GgRzWRE0fT5lYNmxnWeRnYuLhoZbDqslAfJzg"
         },
         {
             "key": "一起看 ",
@@ -184,22 +183,31 @@
             "ext": "https://haozhansou.com/"
         },
         {
-            "key": "快影",
-            "name": "快影┃YsV2",
+            "key": "陌陌",
+            "name": "陌陌┃YsV2",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
             "changeable": 1,
-            "ext": "http://iosa.xn--654a.cc/api.php/app/"
+            "ext": "https://www.kuin.one/api.php/app/"
         },
         {
-            "key": "腐宅",
-            "name": "腐宅┃YsV2",
+            "key":"酷影视",
+            "name":"酷影┃YsV2",
+            "type":3,
+            "api":"csp_AppYsV2",
+            "searchable":1,           
+            "changeable": 1,
+            "ext":"https://www.tvkuys.xyz/api.php/app/"
+        },
+        {
+            "key": "赞赞",
+            "name": "赞赞┃切片",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
             "changeable": 1,
-            "ext": "http://app.zhaifutvapp.com/ruifenglb_api.php/v1.vod"
+            "ext": "http://111.230.51.151:9696/api.php/app/"
         },
         {
             "key": "csp_Bttoo",

@@ -1,5 +1,5 @@
 {
-    "spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/TVRule/main/custom_spider.jar;md5;c309b0f793045f88f75aa088cd0cc7b5",
+    "spider": "https://already.free.hr/kvymin/TVRule/main/custom_spider.jar;md5;c309b0f793045f88f75aa088cd0cc7b5",
     "wallpaper": "",
     "sites": [
         {
@@ -31,7 +31,7 @@
             "key": "py_cctv_集合",
             "name": "央视┃集合",
             "type": 3,
-            "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/TVRule/main/pyramid/py_cctv.py",
+            "api": "https://already.free.hr/kvymin/TVRule/main/pyramid/py_cctv.py",
             "style": {
                 "type": "rect",
                 "ratio": 1.485
@@ -72,7 +72,7 @@
             "api": "csp_Nmys",
             "searchable": 1,
             "changeable": 1,
-            "ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/TVRule/main/json/nmys.json"
+            "ext": "https://already.free.hr/kvymin/TVRule/main/json/nmys.json"
         },
         {
             "key": "毛驴",
@@ -403,32 +403,7 @@
             "url": "http://api.888484.xyz/jiexi/米太硬.php?url=",
             "ext": {
                 "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "tucheng",
-                    "sohu",
-                    "搜狐",
-                    "letv",
-                    "乐视",
-                    "mgtv",
-                    "芒果",
-                    "tnmb",
-                    "seven",
-                    "yzm",
-                    "aliyun",
-                    "RJuMao",
-                    "bilibili",
-                    "1905",
-                    "xinvip",
-                    "XAL",
-                    "qiqi",
-                    "XALS",
-                    "YuMi-vip"
+                    "qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","tucheng","sohu","搜狐","letv","乐视","mgtv","芒果","tnmb","seven","yzm","aliyun","RJuMao","bilibili","1905","xinvip","XAL","qiqi","XALS","YuMi-vip"
                 ]
             }
         },
@@ -438,24 +413,7 @@
             "url": "https://jx.xmflv.com/?url=",
             "ext": {
                 "flag": [
-                    "qq",
-                    "腾讯",
-                    "qiyi",
-                    "爱奇艺",
-                    "奇艺",
-                    "youku",
-                    "优酷",
-                    "mgtv",
-                    "芒果",
-                    "imgo",
-                    "letv",
-                    "乐视",
-                    "pptv",
-                    "PPTV",
-                    "sohu",
-                    "bilibili",
-                    "哔哩哔哩",
-                    "哔哩"
+                    "qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","imgo","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"
                 ],
                 "header": {
                     "User-Agent": "okhttp/4.1.0"

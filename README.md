@@ -1,6 +1,6 @@
 ##  kvymin.github.io/TVRule/config.json
-#  already.free.hr/kvymin/TVRule/main/config.json
-#  https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/TVRule/main/config.json
+  already.free.hr/kvymin/TVRule/main/config.json
+  https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/TVRule/main/config.json
 
 ##XBiubiu规则
 ------------------

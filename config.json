@@ -1,5 +1,5 @@
 {
-    "spider": "https://already.free.hr/kvymin/TVRule/main/custom_spider.jar;md5;1b8a4519060aa9c23755fddaaf63bb9b",
+    "spider": "https://already.free.hr/kvymin/TVRule/main/custom_spider.jar;md5;c909e1c1f4523de628060118021ce9ba",
     "wallpaper": "",
     "sites": [
         {
@@ -171,7 +171,7 @@
             "api": "csp_Auete",
             "searchable": 1,
             "changeable": 1,
-            "ext": "https://haozhansou.com/"
+            "ext": "https://v.auete.com/"
         },
         {
             "key": "陌陌",
@@ -243,6 +243,9 @@
             "searchable": 1,
             "changeable": 1
         },
+        {"key":"88js","name":"看球┃在线","type":3,"api":"csp_Kanqiu","style":{"type":"list"},"searchable":0,"changeable":0},
+        {"key":"短剧","name":"短剧┃在线","type":3,"api":"csp_Duanju","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://duanju.one"},        
+        {"key":"MTV","name":"明星┃MV","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":"./json/MTV.json"},
         {
             "key": "csp_SP33",
             "name": "三三┃解析",

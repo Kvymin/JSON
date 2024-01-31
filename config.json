@@ -1,10 +1,3 @@
-  /*
-      {"key":"zxzj","name":"在线┃直连","type":3,"api":"csp_Zxzj","searchable":1,"changeable":1,"ext":"https://www.zxzja.com/"},
-      {"key":"csp_Jianpian","name":"荐片┃直连","type":3,"api":"csp_Jianpian","searchable":1,"changeable":1,"ext":"http://api2.rinhome.com"},
-      {"key":"csp_Kuaikan","name":"快看┃直连","type":3,"api":"csp_Kuaikan","searchable":1,"changeable":1,},
-      {"key":"csp_MYYS","name":"忍者┃直连","type":3,"api":"csp_MYYS","searchable":1,"changeable":1,"ext":"http://rzys.xyz"},
-      
-      */
 {
     "spider": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/custom_spider.jar?ref=master;md5;1ff3df38a66ee5378031e4fac1799596",
     "wallpaper": "",

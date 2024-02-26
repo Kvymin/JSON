@@ -2,28 +2,6 @@
 {
     "spider": "./custom_spider.jar;md5;69c44556911acb40c53846bd52873fee",
     "wallpaper": "",
-    "lives": [
-        {
-            "name": "直播┃聚播",
-            "type": 1,
-            "url": "./tvlive/live.json",
-            "playerType": 1,
-            "ua": "okhttp/3.15",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "央视┃嗅探",
-            "type": 0,
-            "url": "./tvlive/ccnt.m3u",
-            "playerType": 1,
-            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "timeout": 40,
-            "boot": false
-        }
-    ],
     "sites": [
         {"key":"豆豆","name":"豆瓣┃评分","type":3,"api":"csp_DouDou","searchable":0,"changeable":0},
         {"key":"玩偶哥哥","name":"玩偶┃4K","type":3,"api":"csp_WoGG","searchable":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$关"},

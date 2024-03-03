@@ -1,15 +1,11 @@
 {
-    "spider": "./custom_spider.jar;md5;b283549a522bd5a164524d7ae4781806",
+    "spider": "./custom_spider.jar;md5;a0df2c561cdc1fc457ed12595bf8659f",
     "wallpaper": "",
     "lives": [
         {
             "name": "直播┃电视",
-            "type": 1,
-            "url": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/tvlive/live.json?ref=master",
-            "playerType": 1,
-            "ua": "okhttp/3.15",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
+            "type": 0,
+            "url": "https://mirror.ghproxy.com/raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u"
         },
         {
             "name": "央视┃嗅探",
@@ -96,6 +92,14 @@
             "searchable": 1,
             "changeable": 1,
             "ext": "AO7TcBkd8Jqf5UgA7xXA6dVlLcc="
+        },       
+        {
+            "key": "嘀嘀",
+            "name": "滴哔┃无广",
+            "type": 3,
+            "api": "csp_Bdys",
+            "searchable": 1,
+            "changeable": 1
         },
         {
             "key": "csp_Nmys",
@@ -311,7 +315,7 @@
             "api": "csp_Zhaozy",
             "searchable": 1,
             "changeable": 0,
-            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$lmok37266@bazatek.com$$$Yoursmile"
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$zhaoziyuan777$$$qqq111"
         },
         {
             "key": "PanSou",

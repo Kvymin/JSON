@@ -1,5 +1,5 @@
 {
-    "spider": "./custom_spider.jar;md5;9fdf355f7d803698900ccf4ceb4626cb",
+    "spider": "./custom_spider.jar;md5;d275081b5b9f999614a1930aa7599cb9",
     "wallpaper": "",
     "lives": [
         {
@@ -38,14 +38,6 @@
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$关"
         },
         {
-            "key": "YGP",
-            "name": "荐影┃速递",
-            "type": 3,
-            "api": "csp_YGP",
-            "searchable": 0,
-            "changeable": 0
-        },
-        {
             "key": "py_cctv_集合",
             "name": "央视┃集合",
             "type": 3,
@@ -65,8 +57,16 @@
             "api": "csp_Czsapp",
             "searchable": 1,
             "changeable": 1,
-            "ext": "https://bo.czys.me/"
-        },        
+            "ext": "https://www.czzy77.com/"
+        }, 
+        {
+            "key":"Kkys",
+            "name":"酷看┃秒播",
+            "type":3,
+            "api":"csp_Kkys",
+            "searchable":1,
+            "changeable":1
+        },
         {
             "key":"原创",
             "name":"原创┃无广",
@@ -92,16 +92,6 @@
             "searchable": 1,
             "changeable": 1
         },
-        {
-            "key": "追剧",
-            "name": "追剧┃App",
-            "type": 3,
-            "api": "csp_AppTT",
-            "playerType": 2,
-            "searchable": 1,
-            "changeable": 1,
-            "ext": "AO7TcBkd8Jqf5UgA7xXA6dVlLcc="
-        },       
         {
             "key": "嘀嘀",
             "name": "滴哔┃无广",
@@ -146,6 +136,16 @@
             "changeable": 1,
             "ext": "https://www.zxzja.com/"
         },
+        {
+            "key": "追剧",
+            "name": "追剧┃App",
+            "type": 3,
+            "api": "csp_AppTT",
+            "playerType": 2,
+            "searchable": 1,
+            "changeable": 1,
+            "ext": "AO7TcBkd8Jqf5UgA7xXA6dVlLcc="
+        },       
         {
             "key": "萌米",
             "name": "萌米┃App",
@@ -204,6 +204,14 @@
             "name": "可乐┃直连",
             "type": 3,
             "api": "csp_Cokemv",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "Duanju",
+            "name": "上头┃短剧",
+            "type": 3,
+            "api": "csp_Duanju",
             "searchable": 1,
             "changeable": 1
         },
@@ -287,6 +295,14 @@
             "searchable": 0,
             "changeable": 0,
             "ext": "./json/MTV.json"
+        },
+        {
+            "key": "YGP",
+            "name": "荐影┃速递",
+            "type": 3,
+            "api": "csp_YGP",
+            "searchable": 0,
+            "changeable": 0
         },
         {
             "key": "Aid",

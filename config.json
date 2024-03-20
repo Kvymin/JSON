@@ -1,5 +1,5 @@
 {
-    "spider": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/custom_spider.jar?ref=master;md5;dd909349c70fe92e82470eba611b7094",
+    "spider": "./custom_spider.jar;md5;dd909349c70fe92e82470eba611b7094",
     "wallpaper": "",
     "lives": [
         {
@@ -10,7 +10,7 @@
         {
             "name": "央视┃嗅探",
             "type": 0,
-            "url": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/tvlive/ccnt.m3u?ref=master",
+            "url": "./tvlive/ccnt.m3u",
             "playerType": 1,
             "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -37,7 +37,7 @@
             "key": "py_cctv_集合",
             "name": "央视┃集合",
             "type": 3,
-            "api": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/pyramid/py_cctv.py?ref=master",
+            "api": "./pyramid/py_cctv.py",
             "style": {
                 "type": "rect",
                 "ratio": 1.485
@@ -87,7 +87,7 @@
             "name": "农民┃直连",
             "type": 3,
             "api": "csp_Nmys",
-            "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/nmys.json?ref=master"
+            "ext": "./json/nmys.json"
         },
         {
             "key": "Xinsj",
@@ -170,9 +170,9 @@
             "key": "drpy_js_荐片",
             "name": "荐片┃p2p",
             "type": 3,
-            "api": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/quickjs/lib/drpy2.min.js?ref=master",
+            "api": "./quickjs/lib/drpy2.min.js",
             "playerType": 1,
-            "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/quickjs/荐片.js?ref=master"
+            "ext": "./quickjs/荐片.js"
         },
         {
             "key": "SixV",
@@ -293,7 +293,7 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/MTV.json?ref=master"
+            "ext": "./json/MTV.json"
         },
         {
             "key": "push_agent",

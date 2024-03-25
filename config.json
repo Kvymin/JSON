@@ -1,5 +1,5 @@
 {
-    "spider": "./custom_spider.jar;md5;dd909349c70fe92e82470eba611b7094",
+    "spider": "./custom_spider.jar;md5;602fb3226d777850053484cdeb2f3296",
     "wallpaper": "",
     "lives": [
         {
@@ -42,6 +42,13 @@
                 "type": "rect",
                 "ratio": 1.485
             }
+        },
+        {
+            "key": "白嫖",
+            "name": "白飘┃无广",
+            "type": 3,
+            "api": "csp_BaiPiao",
+            "ext": "https://www.baipiaoys.com/"
         },
         {
             "key": "LiteApple",

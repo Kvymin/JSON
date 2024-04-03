@@ -174,12 +174,6 @@
             "ext": "http://www.xb6v.com/"
         },
         {
-            "key": "Duanju",
-            "name": "上头┃短剧",
-            "type": 3,
-            "api": "csp_Duanju"
-        },
-        {
             "key": "Kanqiu",
             "name": "看球┃在线",
             "type": 3,

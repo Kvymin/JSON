@@ -10,7 +10,7 @@
         {
             "name": "央视┃嗅探",
             "type": 0,
-            "url": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/tvlive/ccnt.<m3u?ref=master",
+            "url": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/tvlive/ccnt.m3u?ref=master",
             "playerType": 1,
             "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",

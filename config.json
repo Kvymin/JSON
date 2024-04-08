@@ -6,7 +6,7 @@
       "key": "豆瓣",
       "name": "豆瓣┃评分",
       "type": 3,
-      "api": "csp_YGP"
+      "api": "csp_Douban"
     },
     {
       "key": "csp_Kuaikan",

@@ -36,23 +36,27 @@ var index_config_default = {
         name: "自有 ",
         url: "https://mirror.ghproxy.com/raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u",
         index: "true"
+      },
+      {
+        name: "优质源 ",
+        url: "https://raw.gitmirror.com/wwb521/live/main/tv.txt",
+        index: "false"
       }
     ]
   },
   ffm3u8: {
-    url: "http://cj.ffzyapi.com/api.php/provide/vod/",
+    url: "https://cj.ffzyapi.com/api.php/provide/vod/",
     categories: ["国产剧", "香港剧", "韩国剧", "欧美剧", "台湾剧", "日本剧", "海外剧", "泰国剧", "短剧", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "动漫片", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "海外动漫", "记录片"]
   },
   yiso: {
     url: "https://yiso.fun",
     cookie: "satoken=e22c282a-5d98-47e7-a2b9-ab3af26004ca; cf_clearance=3vDgsYCxJVJgqSUSt9gsonvCsMyg_7T5rHhJpzwsaZA-1711673938-1.0.1.1-QVyroEPi7QbZleTfA7zQLcM4lkfdFdFPeX10r_6.IjAsJkmCtOTZh7XJhYHcs1z0Bm41Off5BBJHKIZ7eqyI8g; __vtins__JkIGvjjs25ETn0wz=%7B%22sid%22%3A%20%226820fd1f-4811-50df-8fb2-9914a044a0e6%22%2C%20%22vd%22%3A%203%2C%20%22stt%22%3A%2031208%2C%20%22dr%22%3A%209755%2C%20%22expires%22%3A%201711675727874%2C%20%22ct%22%3A%201711673927874%7D; __51vuft__JkIGvjjs25ETn0wz=1711673896672; __51vcke__JkIGvjjs25ETn0wz=0fc552c7-b63d-5ca0-b721-34cbb8886769; __51uvsct__JkIGvjjs25ETn0wz=1 ;JSESSIONID=2651393E7E8764D5156D3F755FFC438B"
   },
-  pikaso: {
-    // name: '皮卡资源',
-    url: "https://www.pikaso.top"
+  wnlg: {
+    url: "https://tv.yydsys.top"
   },
   ikanbot: {
-    url: "https://www.aikanbot.com"
+    url: "https://www.imoviebot.com/"
   },
   czzy: {
     url: "https://cz01.vip"
@@ -72,42 +76,23 @@ var index_config_default = {
   wobg: {
     url: "https://wobge.run.goorm.io"
   },
-  wnlg: {
-    url: "https://tv.yydsys.top"
-  },
   tudou: {
     url: "https://tudou.lvdoui.top"
   },
   xxpan: {
     url: "https://xpanpan.site"
   },
+  pikaso: {
+    //name: '皮卡资源',
+    url: "https://www.pikaso.top"
+  },
   appys: {
-    kuin: [
-      {
-        name: "狐狸",
-        url: "https://www.kuin.one/api.php/app/",
-        search: true
-      }
-    ],
-    tvkuys: [
-      {
-        name: "酷影",
-        url: "https://www.tvkuys.xyz/api.php/app/",
-        search: true
-      }
-    ],
-    shaoze: [
-      {
-        name: "少泽",
-        url: "https://yk.shaozeyy.com/api.php/app/",
-        search: true
-      }
-    ],
     bro: [
       {
         name: "零刻",
         url: "https://ys.51bro.cn/mogai_api.php/v1.vod",
         search: true
+        //搜索开关 true开 false关
       }
     ],
     futv: [
@@ -155,7 +140,7 @@ var index_config_default = {
   },
   bili: {
     categories: "经典无损音乐合集#帕梅拉#太极拳#健身#舞蹈#音乐#歌曲#MV4K#演唱会4K#白噪音4K#知名UP主#说案#解说#演讲#时事#探索发现超清#纪录片超清#沙雕动画#沙雕穿越#沙雕#平面设计教学#软件教程#实用教程#旅游#风景4K#食谱#美食超清#搞笑#球星#动物世界超清#相声小品#戏曲#儿童#小姐姐4K#热门#旅行探险",
-    cookie: "SESSDATA=01c79709%2C1711618905%2C244c3%2A91CjA9UUnRb_kJg03J5FqUbin76yMY90o1-ckJsM1ItQH21ns4hgcS6Le6oMR3SKtC18QSVmxSbGRhN3cyS3NReERsOHRfYVlhTWJKZjZyTF9wUWJXbjNfaF9qWklFMFpoeVg1ZUhFb0Q0MGFiN3FYd1N3UEFEY1oxX29IdmFSRVVLamcybGhhSkJnIIEC; bili_jct=e9d6e9df733afde2a03693d63a4e77dc; DedeUserID=186957646; DedeUserID__ckMd5=4f717c8832ee1e62; sid=elhiqom1; refreshToken=0 ;"
+    cookie: "buvid3=9886CA0B-AE64-32E4-666C-20794FE81A1468431infoc; bmg_af_switch=1; bmg_src_def_domain=i1.hdslb.com; buvid4=2C4320EB-492C-0D62-D3E8-B4BD015BF09470372-124011203-8JCnvIOF1fjkunIJHyAYKQ%2B8ZCFZAbf3jRD2zFYr%2Fmz%2B%2BRgODui9m%2FfZAtFaI1ig; b_lsid=64F181F6_18CFBC3EEA6; _uuid=C7A125C6-CF69-F8B6-1D62-ABAD2E3B72F671068infoc; b_nut=100; buvid_fp=d1ed6cce1c9fa70c0cd7fe52d853ec23; SESSDATA=d25aab69%2C1720583012%2Cb9d9b%2A11CjBxXG36TKbR8UoflU2QC7PZ7nG3FIipmiKJhoy78zwYDIj9ICD10Cq5X3baq8q4HccSVnp0TE5IcWg1bzdJYkRTaWNqdTJkeVF0bTdYTkFXQjBpckg5aHBSR3hQbTNaZzJXT2czc0J6RUxramZiMXRDZE9BZGxwMURnT0JEM1I2a2xHTkJLcXZRIIEC; bili_jct=b2acff73ee2ae535253913d41927a51d; DedeUserID=1434816991; DedeUserID__ckMd5=1e33fe08c3f018cd; sid=8i2kamd6"
   },
   m3u8cj: {
     lzm3u8: [
@@ -259,7 +244,7 @@ var index_config_default = {
       {
         name: "红牛",
         url: "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/",
-        categories: ["动作片", "爱情片", "喜剧片", "科  �片", "恐怖片", "剧情片", "战争片", "动漫电影", "短剧", "国产剧", "欧美剧", "港澳剧", "韩剧", "日剧", "台湾剧", "泰剧", "动漫", "综艺", "纪录片", "体育赛事"],
+        categories: ["动作片", "爱情片", "喜剧片", "科幻片", "恐怖片", "剧情片", "战争片", "动漫电影", "短剧", "国产剧", "欧美剧", "港澳剧", "韩剧", "日剧", "台湾剧", "泰剧", "动漫", "综艺", "纪录片", "体育赛事"],
         search: true
       }
     ],

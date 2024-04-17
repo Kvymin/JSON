@@ -152,9 +152,6 @@
       "key": "黑狐",
       "name": "黑狐┃影视",
       "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
       "api": "csp_XBPQ",
       "ext": {
         "站名": "黑狐影院",
@@ -188,6 +185,79 @@
         "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
         "分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
       }
+    },
+    {
+      "key": "蘑菇",
+      "name": "蘑菇┃剧场",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+          "主页url": "https://moguys.xyz/",
+          "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+          "搜索url": "https://moguys.xyz/vodsearch/-------------.html?wd={wd}",
+          "分类url": "https://moguys.xyz/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;ak"
+          }
+    },
+    {      
+      "key": "kanke",      
+      "name": "看客┃影视",      
+      "type": 3,      
+      "api": "csp_XBPQ",
+      "ext": 
+      {
+          "分类url":"https://kanke.cc/Type/{cateId}/page/{catePg}/year/{year}",        
+          "分类":"剧库$1#番剧$4#纪录$3#影库$2"
+        }
+    },
+    {
+      "key": "厂长",
+      "name": "厂长┃资源",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+       "主页url": "https://www.cz233.com/",
+       "数组": "<li>&&</li>",
+       "图片": "data-original=\"&&\"",
+       "标题": "alt=\"&&\"",
+       "链接": "href=\"&&\"",
+       "副标题": "span>&&</span>",
+       "搜索模式": "1",
+       "搜索url": "https://cn.bing.com/search?q={wd}+site%3Awww.czzy88.com/movie&qs=ds&form=QBRE",
+       "搜索二次截取": "<ol id=\"b_results&&</ol",
+       "搜索数组": "class=\"b_algoheader&&</a",
+       "搜索图片": "https://scdn.colabug.com/2022/05/nqifme-20220502.png",
+       "搜索标题": "<strong>&&</strong>",
+       "搜索副标题": "厂长资源",
+       "搜索链接": "href=\"&&\"",
+       "影片年代": "年份：&&</li>",
+       "影片地区": "地区：&&</li>",
+       "影片类型": "类型：&&</li>",
+       "导演": "导演：&&</li>",
+       "主演": "主演：&&</li>",
+       "简介": "class=\"yp_context\"&&</p>",
+       "线路数组": "<div class=\"mi_paly_box\">&&</div>",
+       "线路标题": "<span>&&</span>",
+       "播放数组": "<div class=\"paly_list_btn\">&&</div>",
+       "播放列表": "<a&&/a>",
+       "播放标题": ">&&<",
+       "播放链接": "href=\"&&\"",
+       "分类": "电影&电视剧&动画&国产剧&日剧&韩剧&美剧&海外剧&俄罗斯电影&加拿大电影&华语电影&印度电影&日本电影&欧美电影&法国电影&英国电影&韩国电影",
+       "分类值": "dyy&dianshiju&dohua&guochanju&rj&hj&mj&hwj&eluosidianying&jianadadianying&huayudianying&yindudianying&ribendianying&meiguodianying&faguodianying&yingguodianying&hanguodianying",
+       "分类url": "https://www.cz233.com/movie_bt/{class}/movie_bt_series/{cateId}/page/{catePg};;a"
+      }
+    },
+    {      
+      "key": "996",      
+      "name": "996┃影视",      
+      "type": 3,      
+      "api": "csp_XBPQ",   
+      "ext": 
+        {
+          "分类url":"https://www.cs1369.com/vod/type/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",        
+          "分类":"电影$1#电视剧$2#动漫$3#爽文短剧$4#综艺$5"
+       }
     },
     {
       "key": "csp_SP360",
@@ -405,136 +475,136 @@
   ],
     "rules": [
         {
-            "name": "量子",
-            "hosts": [
-                "vip.lz",
-                "hd.lz",
-                ".cdnlz",
-                "v.cdnlz",
-                "vip1.lz"
+      "name": "量子",
+      "hosts": [
+          "vip.lz",
+          "hd.lz",
+          ".cdnlz",
+          "v.cdnlz",
+          "vip1.lz"
             ],
-            "regex": [
-                "17.2"
+      "regex": [
+          "17.2"
             ]
         },
         {
-            "name": "非凡",
-            "hosts": [
-                "vip.ffzy",
-                "super.ffzy",
-                "svip.ffzy"
+      "name": "非凡",
+      "hosts": [
+          "vip.ffzy",
+          "super.ffzy",
+          "svip.ffzy"
             ],
-            "regex": [
-                "18"
+      "regex": [
+          "18"
             ]
         },
         {
-            "name": "乐视",
-            "hosts": [
-                "leshiyun"
+      "name": "乐视",
+      "hosts": [
+          "leshiyun"
             ],
-            "regex": [
-                "15.92"
+      "regex": [
+          "15.92"
             ]
         },
         {
-            "name": "优质",
-            "hosts": [
-                "yzzy"
+      "name": "优质",
+      "hosts": [
+          "yzzy"
             ],
-            "regex": [
-                "19.52",
-                "19.13"
+      "regex": [
+          "19.52",
+          "19.13"
             ]
         },
         {
-            "name": "YQK",
-            "hosts": [
-                "ydd"
+      "name": "YQK",
+      "hosts": [
+          "ydd"
             ],
-            "regex": [
-                "18.4",
-                "15.1666",
-                "16.5333"
+      "regex": [
+          "18.4",
+          "15.1666",
+          "16.5333"
             ]
         },
         {
-            "name": "快看",
-            "hosts": [
-                "kuaikan"
+      "name": "快看",
+      "hosts": [
+          "kuaikan"
             ],
-            "regex": [
-                "20.123",
-                "20.167"
+      "regex": [
+          "20.123",
+          "20.167"
             ]
         },
         {
-            "name": "索尼",
-            "hosts": [
-                "suonizy"
+      "name": "索尼",
+      "hosts": [
+          "suonizy"
             ],
-            "regex": [
-                "16.3333",
-                "15.1666",
-                "15.2666",
-                "#EXTINF.*?\\s+.*?original.*?\\.ts\\s+"
+      "regex": [
+          "16.3333",
+          "15.1666",
+          "15.2666",
+          "#EXTINF.*?\\s+.*?original.*?\\.ts\\s+"
             ]
         },
         {
-            "name": "暴风",
-            "hosts": [
-                "bf"
+      "name": "暴风",
+      "hosts": [
+          "bf"
             ],
-            "regex": [
-                "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"
+      "regex": [
+          "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"
             ]
         },
         {
-            "name": "蜗牛",
-            "hosts": [
-                "vip.123pan.cn",
-                "rescdn.wuxivlog.cn"
+      "name": "蜗牛",
+      "hosts": [
+          "vip.123pan.cn",
+          "rescdn.wuxivlog.cn"
             ],
-            "regex": [
-                "#EXT-X-DISCONTINUITY[\\s\\S]+?#EXT-X-DISCONTINUITY"
+      "regex": [
+          "#EXT-X-DISCONTINUITY[\\s\\S]+?#EXT-X-DISCONTINUITY"
             ]
         },
         {
-            "name": "农民嗅探",
-            "hosts": [
-                "toutiaovod.com"
+      "name": "农民嗅探",
+      "hosts": [
+          "toutiaovod.com"
             ],
-            "regex": [
-                "video/tos/cn"
+      "regex": [
+          "video/tos/cn"
             ]
         },
         {
-            "name": "hs",
-            "hosts": [
-                "huoshan.com"
+      "name": "hs",
+      "hosts": [
+          "huoshan.com"
             ],
-            "regex": [
-                "item_id="
+      "regex": [
+          "item_id="
             ]
         },
         {
-            "name": "dy",
-            "hosts": [
-                "douyin.com"
+      "name": "dy",
+      "hosts": [
+          "douyin.com"
             ],
-            "regex": [
-                "is_play_url="
+      "regex": [
+          "is_play_url="
             ]
         },
         {
-            "name": "cl",
-            "hosts": [
-                "magnet"
+      "name": "cl",
+      "hosts": [
+          "magnet"
             ],
-            "regex": [
-                "最 新",
-                "直 播",
-                "更 新"
+      "regex": [
+          "最 新",
+          "直 播",
+          "更 新"
             ]
         }
     ],

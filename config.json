@@ -1,9 +1,9 @@
 {
-  "spider": "./custom_spider.jar;md5;a04dbe1aab6e31e03da7aee83b754c8b",
+  "spider": "./custom_spider.jar;md5;9f15ade02721f30f65880bef1271be69",
   "wallpaper": "",
   "sites": [
     {
-      "key": "豆瓣",
+      "key": "csp_Douban",
       "name": "豆瓣┃评分",
       "type": 3,
       "api": "csp_Douban"
@@ -15,7 +15,25 @@
       "api": "csp_Kuaikan"
     },
     {
-      "key": "白嫖",
+      "key": "csp_NfApp", 
+      "name": "南坊┃影视", 
+      "type": 3, 
+      "api": "csp_NfApp" 
+    }, 
+    { 
+      "key": "csp_Czys", 
+      "name": "橙汁┃影视", 
+      "type": 3, 
+      "api": "csp_Czys" 
+    }, 
+    {
+      "key": "csp_Juqq", 
+      "name": "剧圈┃影视", 
+      "type": 3,
+      "api": "csp_Juqq" 
+    }, 
+    {
+      "key": "csp_BaiPiao",
       "name": "白嫖┃影视",
       "type": 3,
       "api": "csp_BaiPiao"
@@ -28,7 +46,7 @@
       "ext": "https://v.nmvod.cn"
     },
     {
-      "key": "新视觉",
+      "key": "csp_Xinsj",
       "name": "视觉┃影视",
       "type": 3,
       "api": "csp_Xinsj",
@@ -47,13 +65,14 @@
       "api": "csp_LiteApple"
     },
     {
-      "key": "厂长",
+      "key": "csp_Czsapp",
       "name": "厂长┃影视",
       "type": 3,
-      "api": "csp_Czsapp"
+      "api": "csp_Czsapp",
+      "ext": "https://www.cz233.com/"
     },
     {
-      "key": "csp_Panda_玩偶哥哥",
+      "key": "csp_Wogg",
       "name": "玩偶┃4K",
       "api": "csp_Wogg",
       "type": 3,
@@ -61,13 +80,13 @@
       "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
     },
     {
-      "key": "比特",
+      "key": "csp_Bttwo",
       "name": "比特┃影视",
       "type": 3,
       "api": "csp_Bttwo"
     },
     {
-      "key": "荐片",
+      "key": "csp_Jianpian",
       "name": "荐片┃p2p",
       "api": "csp_Jianpian",
       "type": 3,
@@ -87,12 +106,6 @@
       "ext": "http://rzys.xyz/"
     },
     {
-      "key": "攻阁",
-      "name": "攻阁┃影视",
-      "type": 3,
-      "api": "csp_Lggys"
-    },
-    {
       "key": "csp_Freeok",
       "name": "️免费┃影视",
       "type": 3,
@@ -105,28 +118,22 @@
       "api": "csp_Auete"
     },
     {
-      "key": "哔嘀",
+      "key": "csp_Bdys",
       "name": "️哔嘀┃影视",
       "type": 3,
       "api": "csp_Bdys"
     },
     {
-      "key": "毛驴",
+      "key": "csp_MaoLv",
       "name": "毛驴┃影视",
       "type": 3,
       "api": "csp_MaoLv"
     },
     {
-      "key": "兄弟",
+      "key": "csp_Xdys",
       "name": "兄弟┃影视",
       "type": 3,
       "api": "csp_Xdys"
-    },
-    {
-      "key": "外剧影视",
-      "name": "外剧┃影视",
-      "type": 3,
-      "api": "csp_KmeiJu"
     },
     {
       "key": "csp_Xb6v",
@@ -202,7 +209,7 @@
       "api": "csp_Duanju"
     },
     {
-      "key": "alist",
+      "key": "csp_AList",
       "name": "小鸭┃网盘",
       "type": 3,
       "api": "csp_AList",
@@ -220,7 +227,7 @@
       }
     },
     {
-      "key": "樱花动漫",
+      "key": "csp_Ying",
       "name": "樱花┃动漫",
       "type": 3,
       "api": "csp_Ying"
@@ -261,7 +268,7 @@
       "gridview": "0-0-4.1"
     },
     {
-      "key": "看球",
+      "key": "csp_Kanqiu",
       "name": "看球┃直播",
       "type": 3,
       "api": "csp_Kanqiu",
@@ -271,7 +278,7 @@
       }
     },
     {
-      "key": "七夜",
+      "key": "csp_Dovx",
       "name": "七夜┃网盘",
       "type": 3,
       "api": "csp_Dovx",

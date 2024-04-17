@@ -142,13 +142,6 @@
       "api": "csp_Xb6v"
     },
     {
-      "key": "开心",
-      "name": "开心┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "http://rihou.vip:55/lib/开心HK影视.json"
-    },
-    {
       "key": "黑狐",
       "name": "黑狐┃影视",
       "type": 3,
@@ -187,31 +180,6 @@
       }
     },
     {
-      "key": "蘑菇",
-      "name": "蘑菇┃剧场",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-          "主页url": "https://moguys.xyz/",
-          "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-          "搜索url": "https://moguys.xyz/vodsearch/-------------.html?wd={wd}",
-          "分类url": "https://moguys.xyz/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;ak"
-          }
-    },
-    {      
-      "key": "kanke",      
-      "name": "看客┃影视",      
-      "type": 3,      
-      "api": "csp_XBPQ",
-      "ext": 
-      {
-          "分类url":"https://kanke.cc/Type/{cateId}/page/{catePg}/year/{year}",        
-          "分类":"剧库$1#番剧$4#纪录$3#影库$2"
-        }
-    },
-    {
       "key": "厂长",
       "name": "厂长┃资源",
       "type": 3,
@@ -247,17 +215,6 @@
        "分类值": "dyy&dianshiju&dohua&guochanju&rj&hj&mj&hwj&eluosidianying&jianadadianying&huayudianying&yindudianying&ribendianying&meiguodianying&faguodianying&yingguodianying&hanguodianying",
        "分类url": "https://www.cz233.com/movie_bt/{class}/movie_bt_series/{cateId}/page/{catePg};;a"
       }
-    },
-    {      
-      "key": "996",      
-      "name": "996┃影视",      
-      "type": 3,      
-      "api": "csp_XBPQ",   
-      "ext": 
-        {
-          "分类url":"https://www.cs1369.com/vod/type/area/{area}/id/{cateId}/page/{catePg}/year/{year}.html",        
-          "分类":"电影$1#电视剧$2#动漫$3#爽文短剧$4#综艺$5"
-       }
     },
     {
       "key": "csp_SP360",

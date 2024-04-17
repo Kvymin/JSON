@@ -313,14 +313,14 @@
     },
     {
       "key": "csp_Pansou",
-      "name": "盘搜┃网盘",
+      "name": "盘搜索┃网盘",
       "type": 3,
       "api": "csp_Pansou",
       "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"
     },
     {
       "key": "csp_PanSearch",
-      "name": "盘搜┃网盘2",
+      "name": "盘搜┃网盘",
       "type": 3,
       "api": "csp_PanSearch",
       "ext": "http://127.0.0.1:9978/file/fatcat/token.txt"

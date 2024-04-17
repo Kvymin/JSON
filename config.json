@@ -192,7 +192,7 @@
        "链接": "href=\"&&\"",
        "副标题": "span>&&</span>",
        "搜索模式": "1",
-       "搜索url": "https://cn.bing.com/search?q={wd}+site%3Awww.czzy88.com/movie&qs=ds&form=QBRE",
+       "搜索url": "https://cn.bing.com/search?q={wd}+site%3Awww.cz233.com/movie&qs=ds&form=QBRE",
        "搜索二次截取": "<ol id=\"b_results&&</ol",
        "搜索数组": "class=\"b_algoheader&&</a",
        "搜索图片": "https://scdn.colabug.com/2022/05/nqifme-20220502.png",
@@ -350,223 +350,82 @@
   ],
   "parses": [
     {
-      "name": "Json聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Web聚合",
-      "type": 3,
-      "url": "Web"
-    },
-    {
       "name": "01",
       "type": 1,
-      "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "tucheng",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "yzm",
-          "aliyun",
-          "RJuMao",
-          "bilibili",
-          "1905",
-          "xinvip",
-          "XAL",
-          "qiqi",
-          "XALS",
-          "YuMi-vip"
-        ]
-      }
+      "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url="
     },
     {
       "name": "02",
       "type": 1,
-      "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "tucheng",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "yzm",
-          "aliyun",
-          "RJuMao",
-          "bilibili",
-          "1905",
-          "xinvip",
-          "XAL",
-          "qiqi",
-          "XALS",
-          "YuMi-vip"
-        ]
-      }
+      "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url="
     }
   ],
     "rules": [
-        {
+    {
       "name": "量子",
-      "hosts": [
-          "vip.lz",
-          "hd.lz",
-          ".cdnlz",
-          "v.cdnlz",
-          "vip1.lz"
-            ],
-      "regex": [
-          "17.2"
-            ]
-        },
-        {
+      "hosts": ["vip.lz", "hd.lz", ".cdnlz", "v.cdnlz", "vip1.lz"],
+      "regex": ["17.2"]
+    },
+    {
       "name": "非凡",
-      "hosts": [
-          "vip.ffzy",
-          "super.ffzy",
-          "svip.ffzy"
-            ],
-      "regex": [
-          "18"
-            ]
-        },
-        {
+      "hosts": ["vip.ffzy", "super.ffzy", "svip.ffzy"],
+      "regex": ["18"]
+    },
+    {
       "name": "乐视",
-      "hosts": [
-          "leshiyun"
-            ],
-      "regex": [
-          "15.92"
-            ]
-        },
-        {
+      "hosts": ["leshiyun"],
+      "regex": ["15.92"]
+    },
+    {
       "name": "优质",
-      "hosts": [
-          "yzzy"
-            ],
-      "regex": [
-          "19.52",
-          "19.13"
-            ]
-        },
-        {
-      "name": "YQK",
-      "hosts": [
-          "ydd"
-            ],
-      "regex": [
-          "18.4",
-          "15.1666",
-          "16.5333"
-            ]
-        },
-        {
+      "hosts": ["yzzy"],
+      "regex": ["19.52", "19.13"]
+    },
+    {
       "name": "快看",
-      "hosts": [
-          "kuaikan"
-            ],
-      "regex": [
-          "20.123",
-          "20.167"
-            ]
-        },
-        {
+      "hosts": ["kuaikan"],
+      "regex": ["20.123", "20.167"]
+    },
+    {
       "name": "索尼",
-      "hosts": [
-          "suonizy"
-            ],
+      "hosts": ["suonizy"],
       "regex": [
-          "16.3333",
-          "15.1666",
-          "15.2666",
-          "#EXTINF.*?\\s+.*?original.*?\\.ts\\s+"
-            ]
-        },
-        {
+        "16.3333",
+        "15.1666",
+        "15.2666",
+        "#EXTINF.*?\\s+.*?original.*?\\.ts\\s+"
+      ]
+    },
+    {
       "name": "暴风",
-      "hosts": [
-          "bf"
-            ],
-      "regex": [
-          "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"
-            ]
-        },
-        {
+      "hosts": ["bf"],
+      "regex": ["#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"]
+    },
+    {
       "name": "蜗牛",
-      "hosts": [
-          "vip.123pan.cn",
-          "rescdn.wuxivlog.cn"
-            ],
-      "regex": [
-          "#EXT-X-DISCONTINUITY[\\s\\S]+?#EXT-X-DISCONTINUITY"
-            ]
-        },
-        {
+      "hosts": ["vip.123pan.cn", "rescdn.wuxivlog.cn"],
+      "regex": ["#EXT-X-DISCONTINUITY[\\s\\S]+?#EXT-X-DISCONTINUITY"]
+    },
+    {
       "name": "农民嗅探",
-      "hosts": [
-          "toutiaovod.com"
-            ],
-      "regex": [
-          "video/tos/cn"
-            ]
-        },
-        {
+      "hosts": ["toutiaovod.com"],
+      "regex": ["video/tos/cn"]
+    },
+    {
       "name": "hs",
-      "hosts": [
-          "huoshan.com"
-            ],
-      "regex": [
-          "item_id="
-            ]
-        },
-        {
+      "hosts": ["huoshan.com"],
+      "regex": ["item_id="]
+    },
+    {
       "name": "dy",
-      "hosts": [
-          "douyin.com"
-            ],
-      "regex": [
-          "is_play_url="
-            ]
-        },
-        {
+      "hosts": ["douyin.com"],
+      "regex": ["is_play_url="]
+    },
+    {
       "name": "cl",
-      "hosts": [
-          "magnet"
-            ],
-      "regex": [
-          "最 新",
-          "直 播",
-          "更 新"
-            ]
-        }
-    ],
-    "ads": [
-        "static-mozai.4gtv.tv",
-        "s3t3d2y8.afcdn.net"
-    ]
+      "hosts": ["magnet"],
+      "regex": ["最 新", "直 播", "更 新"]
+    }
+  ],
+  "ads": ["static-mozai.4gtv.tv", "s3t3d2y8.afcdn.net"]
 }

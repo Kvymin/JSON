@@ -5,6 +5,12 @@
     {
       "name": "直播┃聚播",
       "type": 0,
+      "url": "./tvlive/live.txt",
+      "playerType": 1
+    },
+    {
+      "name": "河南┃组播",
+      "type": 0,
       "url": "./tvlive/itvlist.txt",
       "playerType": 1
     },

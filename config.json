@@ -5,7 +5,7 @@
     {
       "name": "直播┃聚播",
       "type": 0,
-      "url": "./tvlive/live.txt",
+      "url": "./tvlive/itvlist.txt",
       "playerType": 1
     },
     {

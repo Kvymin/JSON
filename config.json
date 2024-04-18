@@ -1,6 +1,21 @@
 {
   "spider": "./custom_spider.jar;md5;9f15ade02721f30f65880bef1271be69",
   "wallpaper": "",
+  "lives": [
+    {
+      "name": "直播┃聚播",
+      "type": 0,
+      "url": "./tvlive/live.txt",
+      "playerType": 1
+    },
+    {
+      "name": "央视┃嗅探",
+      "type": 0,
+      "url": "./tvlive/ccnt.m3u",
+      "playerType": 1,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+    }
+  ],
   "sites": [
     {
       "key": "csp_Douban",

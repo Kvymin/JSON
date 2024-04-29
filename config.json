@@ -1,5 +1,5 @@
 {
-  "spider": "./custom_spider.jar;md5;4af14dca6964a737a88b982cb8b20055",
+  "spider": "./custom_spider.jar;md5;ca8aebf22c8948c98104d094d5f87c73",
   "wallpaper": "",
   "lives": [
     {
@@ -39,7 +39,7 @@
       "key": "py_cctv_集合",
       "name": "央视┃集合",
       "type": 3,
-      "api": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/pyramid/py_cctv.py?ref=master",
+      "api": "./pyramid/py_cctv.py",
       "style": {
         "type": "rect",
         "ratio": 1.485
@@ -85,11 +85,11 @@
       "timeout": 15
     },
     {
-      "key": "Czsapp",
-      "name": "厂长┃无广",
+      "key": "NewCz",
+      "name": "厂长┃资源",
       "type": 3,
-      "api": "csp_Czsapp",
-      "ext": "https://www.cz233.com/"
+      "api": "csp_NewCz",
+      "ext": "https://www.czys.top/"
     },
     {
       "key": "Xinsj",
@@ -100,7 +100,7 @@
     },
     {
       "key": "zxzj",
-      "name": "在线┃外剧",
+      "name": "在线┃之家",
       "type": 3,
       "api": "csp_Zxzj",
       "ext": "https://www.zxzja.com/"
@@ -120,7 +120,7 @@
     },
     {
       "key": "Nmys",
-      "name": "农民┃直连",
+      "name": "糯米┃直连",
       "type": 3,
       "api": "csp_Nmys",
       "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/nmys.json?ref=master"
@@ -170,11 +170,10 @@
       "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
     },
     {
-      "key": "SixV",
-      "name": "SixV┃磁力",
+      "key": "DiDuan",
+      "name": "低端┃外剧",
       "type": 3,
-      "api": "csp_SixV",
-      "ext": "http://www.xb6v.com/"
+      "api": "csp_Ddrk"
     },
     {
       "key": "企鹅体育xp",
@@ -372,12 +371,12 @@
   "rules": [
     {
       "name": "量子",
-      "hosts": ["vip.lz", "hd.lz", ".cdnlz", "v.cdnlz", "vip1.lz"],
-      "regex": ["17.2"]
+      "hosts": ["lz"],
+      "regex": ["17.2", "19.84"]
     },
     {
       "name": "非凡",
-      "hosts": ["vip.ffzy", "super.ffzy", "svip.ffzy"],
+      "hosts": ["ffzy"],
       "regex": ["18"]
     },
     {
@@ -388,15 +387,12 @@
     {
       "name": "优质",
       "hosts": ["yzzy"],
-      "regex": ["19.52", "19.13"]
+      "regex": ["18.66", "19.52", "19.13"]
     },
     {
       "name": "快看",
       "hosts": ["kuaikan"],
-      "regex": [
-        "20.123", "20.167",
-        "#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-KEY:METHOD((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-DISCONTINUITY"
-      ]
+      "regex": ["15.32","15.231"]
     },
     {
       "name": "索尼",
@@ -446,4 +442,5 @@
   ],
   "ads": ["static-mozai.4gtv.tv", "s3t3d2y8.afcdn.net"]
 }
+
 

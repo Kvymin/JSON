@@ -1,18 +1,22 @@
 {
-  "spider": "./custom_spider.jar;md5;ca8aebf22c8948c98104d094d5f87c73",
+  "spider": "./custom_spider.jar;md5;a7804047cbfdc68d94b715864a7fbe2d",
   "wallpaper": "",
   "lives": [
     {
       "name": "直播┃组播",
       "type": 0,
-      "url": "https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt"
     },
     {
       "name": "央视┃嗅探",
       "type": 0,
       "url": "./tvlive/ccnt.m3u",
       "playerType": 1,
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0"
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "timeout": 40,
+      "boot": false
     }
   ],
   "sites": [
@@ -31,7 +35,7 @@
         "aliToken": "tvfan/token.txt",
         "quarkCookie": "tvfan/cookie.txt",
         "from": "4k|auto|fhd",
-        "siteUrl": "https://api.wogg.xyz/",
+        "siteUrl": "https://www.wogg.link/",
         "danMu": "关"
       }
     },
@@ -59,7 +63,7 @@
     },
     {
       "key": "BaiPiao",
-      "name": "白飘┃无广",
+      "name": "皮袄┃无广",
       "type": 3,
       "api": "csp_BaiPiao",
       "ext": "https://www.baipiaoys.com:9092"
@@ -79,17 +83,23 @@
     },
     {
       "key": "YCyz",
-      "name": "原创┃无广",
+      "name": "绝缘┃无广",
       "type": 3,
       "api": "csp_YCyz",
       "timeout": 15
+    },
+    {
+      "key":"Xdys",
+      "name":"兄弟┃多线",
+      "type":3,
+      "api":"csp_Xdys"
     },
     {
       "key": "NewCz",
       "name": "厂长┃资源",
       "type": 3,
       "api": "csp_NewCz",
-      "ext": "https://www.czys.top/"
+      "ext": "https://www.czzy.top/"
     },
     {
       "key": "Xinsj",
@@ -103,7 +113,7 @@
       "name": "在线┃之家",
       "type": 3,
       "api": "csp_Zxzj",
-      "ext": "https://www.zxzja.com/"
+      "ext": "https://www.zxzjhd.com/"
     },
     {
       "key": "MLYS",
@@ -123,7 +133,7 @@
       "name": "糯米┃直连",
       "type": 3,
       "api": "csp_Nmys",
-      "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/nmys.json?ref=master"
+      "ext": "./json/nmys.json"
     },
     {
       "key": "Auete",
@@ -174,6 +184,13 @@
       "name": "低端┃外剧",
       "type": 3,
       "api": "csp_Ddrk"
+    },    
+    {
+      "key":"SixV",
+      "name":"SixV┃磁力",
+      "type":3,
+      "api":"csp_SixV",
+      "ext": "http://www.xb6v.com/"
     },
     {
       "key": "企鹅体育xp",
@@ -183,7 +200,7 @@
       "style": {
         "type": "list"
       },
-      "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/tlive.json?ref=master"
+      "ext": "./json/tlive.json"
     },
     {
       "key": "Kanqiu",
@@ -301,7 +318,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/MTV.json?ref=master"
+      "ext": "./json/MTV.json"
     },
     {
       "key": "push_agent",
@@ -406,8 +423,8 @@
     },
     {
       "name": "暴风",
-      "hosts": ["bf"],
-      "regex": ["#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"]
+      "hosts": ["bfzy"],
+      "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
     },
     {
       "name": "蜗牛",
@@ -435,6 +452,26 @@
       "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
     },
     {
+      "name":"新视觉嗅探",
+      "hosts":["muzhi-video.bj.bcebos.com"],
+      "regex":["202403/"]
+    },
+    {
+      "name":"七新嗅探",
+      "hosts":["api.52wyb.com"],
+      "regex":["m3u8?pt=m3u8"]
+    },
+    {
+      "name":"夜市點擊",
+      "hosts":["yeslivetv.com"],
+      "script":["document.getElementsByClassName('vjs-big-play-button')[0].click()"]
+    },
+    {
+      "name":"毛驢點擊",
+      "hosts":["www.maolvys.com"],
+      "script":["document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"]
+    },
+    {
       "name": "磁力",
       "hosts": ["magnet"],
       "regex": ["最 新", "直 播", "更 新"]
@@ -442,5 +479,3 @@
   ],
   "ads": ["static-mozai.4gtv.tv", "s3t3d2y8.afcdn.net"]
 }
-
-

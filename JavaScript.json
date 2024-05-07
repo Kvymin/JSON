@@ -30,11 +30,11 @@
       "ext": "./quickjs/在线之家.js"
     },
     {
-      "key": "酷云七七",
-      "name": "酷云┃七七",
+      "key": "777影视",
+      "name": "777┃影视",
       "type": 3,
       "api": "./quickjs/lib/drpy2.min.js",
-      "ext": "./quickjs/酷云七七.js"
+      "ext": "./quickjs/777影视.js"
     },
     {
       "key": "耐看点播",
@@ -107,11 +107,18 @@
       "ext": "./quickjs/爱看机器人.js"
     },
     {
-      "key": "玩偶哥哥",
-      "name": "玩偶┃哥哥",
+      "key": "极客资源",
+      "name": "极客┃资源",
       "type": 3,
       "api": "./quickjs/lib/drpy2.min.js",
-      "ext": "./quickjs/玩偶哥哥.js"
+      "ext": "./quickjs/极客资源.js"
+    },
+    {
+      "key": "量子影视",
+      "name": "量子┃采集",
+      "type": 3,
+      "api": "./quickjs/lib/drpy2.min.js",
+      "ext": "./quickjs/量子影视.js"
     }
   ],
   "rules": [

@@ -16,13 +16,6 @@
       "ext": "./quickjs/南瓜影视.js"
     },
     {
-      "key": "白嫖影视",
-      "name": "白嫖┃无广",
-      "type": 3,
-      "api": "./quickjs/lib/drpy2.min.js",
-      "ext": "./quickjs/白嫖影视.js"
-    },
-    {
       "key": "在线之家",
       "name": "在线┃之家",
       "type": 3,

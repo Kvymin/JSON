@@ -91,7 +91,7 @@
       "name": "糯米┃直连",
       "type": 3,
       "api": "csp_Nmys",
-      "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/nmys.json?ref=master"
+      "ext": "./json/nmys.json"
     },
     {
       "key": "MLYS",
@@ -272,7 +272,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/MTV.json?ref=master"
+      "ext": "./json/MTV.json"
     },
     {
       "key": "push_agent",

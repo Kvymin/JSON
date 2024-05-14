@@ -164,7 +164,7 @@
       "style": {
         "type": "list"
       },
-      "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/tlive.json?ref=master"
+      "ext": "./json/qie.json"
     },
     {
       "key": "Dm84",
@@ -374,10 +374,17 @@
     },
     {
       "key": "奇优",
-      "name": "️奇优┃xBPQ",
+      "name": "️奇优┃影院",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "http://152.32.170.60/Yoursmile7/TVBox/raw/branch/sub/奇优.json"
+      "ext": "./json/奇优影院.json"
+    },
+    {
+      "key": "掌心世界",
+      "name": "️掌心┃世界",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./json/掌心世界.json"
     },
     {
       "key": "云播",

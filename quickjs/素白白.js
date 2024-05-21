@@ -1,7 +1,7 @@
 // 地址发布页 https://subaibai.vip/
 // 搜索数字验证
 var rule = {
-    title: '素白白',
+    title: '素白白[优]',
     // host:'https://www.subaibaiys.com',
     host: 'https://subaibai.vip',
     hostJs: $js.toString(() => {

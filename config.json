@@ -1,5 +1,5 @@
 {
-  "spider": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/custom_spider.jar?ref=master;md5;f4a9956bae884c4a952da9152c0ed446",
+  "spider": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/custom_spider.jar?ref=master;md5;70471410f8e5a1bf20eb64b6b402e5c2",
   "wallpaper": "",
   "lives": [
     {
@@ -27,7 +27,7 @@
       "api": "csp_DouDou"
     },
     {
-      "key": "玩偶",
+      "key": "WoGG",
       "name": "玩偶┃弹幕",
       "type": 3,
       "api": "csp_WoGG",
@@ -50,7 +50,7 @@
       }
     },
     {
-      "key": "短剧",
+      "key": "Djuu",
       "name": "无忧┃短剧",
       "type": 3,
       "api": "csp_Djuu"
@@ -72,7 +72,8 @@
       "key": "NanGua",
       "name": "南瓜┃App",
       "type": 3,
-      "api": "csp_NanGua"
+      "api": "csp_NanGua",
+      "timeout": 15
     },
     {
       "key": "追剧",
@@ -118,6 +119,7 @@
       "name": "厂长┃资源",
       "type": 3,
       "api": "csp_NewCz",
+      "timeout": 15,
       "ext": "https://czzy.top/"
     },
     {
@@ -132,6 +134,7 @@
       "name": "在线┃之家",
       "type": 3,
       "api": "csp_Zxzj",
+      "timeout": 15,
       "ext": "https://www.zxzjhd.com/"
     },
     {
@@ -139,6 +142,7 @@
       "name": "糯米┃嗅探",
       "type": 3,
       "api": "csp_Nmys",
+      "timeout": 15,
       "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/nmys.json?ref=master"
     },
     {
@@ -167,6 +171,7 @@
       "name": "利播┃直连",
       "type": 3,
       "api": "csp_Libvio",
+      "timeout": 15,
       "ext": "https://www.libvio.pw/"
     },
     {

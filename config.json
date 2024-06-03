@@ -1,5 +1,5 @@
 {
-  "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/kvymin/TVRule/main/custom_spider.jar;md5;c628862b32ac96aac6e77470f2578b0b",
+  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/kvymin/TVRule/main/custom_spider.jar;md5;c628862b32ac96aac6e77470f2578b0b",
   "sites": [
     {
       "key": "DouDou",

@@ -1,5 +1,6 @@
 
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/kvymin/TVRule/main/config.json
+https://github.moeyy.xyz/https://raw.githubusercontent.com/kvymin/TVRule/main/config.json
+
 
 ##XBiubiu规则
 ------------------

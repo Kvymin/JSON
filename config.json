@@ -17,7 +17,7 @@
       "key": "VidHub",
       "name": "视频库┃极速",
       "type": 3,
-      "api": "csp_VidHub"
+      "api": "csp_VidHub",
       "ext": "https://vidhub1.cc"
     },
     {

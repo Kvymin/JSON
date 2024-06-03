@@ -5,47 +5,32 @@
       "key": "DouDou",
       "name": "豆瓣┃评分",
       "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_DouDou"
     },
     {
       "key": "TianTian",
       "name": "天天┃直连",
       "type": 3,
-      "api": "csp_TianTian",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_TianTian"
     },
     {
       "key": "VidHub",
       "name": "视频库┃极速",
       "type": 3,
       "api": "csp_VidHub",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "https://vidhub1.cc"
     },
     {
       "key": "Kekys",
       "name": "可可┃多线",
       "type": 3,
-      "api": "csp_Kekys",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_Kekys"
     },
     {
       "key": "Kkys",
       "name": "酷看┃秒播",
       "type": 3,
-      "api": "csp_Kkys",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_Kkys"
     },
     {
       "key": "LiteApple",
@@ -60,38 +45,26 @@
       "key": "NanGua",
       "name": "南瓜┃App",
       "type": 3,
-      "api": "csp_NanGua",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_NanGua"
     },
     {
       "key": "Kkys",
       "name": "酷看┃秒播",
       "type": 3,
-      "api": "csp_Kkys",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_Kkys"
     },
     {
       "key": "追剧",
       "name": "追剧┃App",
       "type": 3,
-      "api": "csp_AppTT",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 1,
+      "api": "csp_AppTT"
       "ext": "AO7TcBkd8Jqf5UgA7xXA6dVlLcc="
     },
     {
       "key": "天天",
       "name": "天天┃App",
       "type": 3,
-      "api": "csp_AppTT",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 1,
+      "api": "csp_AppTT"
       "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
     },
     {
@@ -99,37 +72,25 @@
       "name": "热播┃多线",
       "type": 3,
       "api": "csp_AppTT",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
     },
     {
       "key": "YCyz",
       "name": "绝缘┃无广",
       "type": 3,
-      "api": "csp_YCyz",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_YCyz"
     },
     {
       "key": "Xdys",
       "name": "兄弟┃多线",
       "type": 3,
-      "api": "csp_Xdys",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_Xdys"
     },
     {
       "key": "NewCz",
       "name": "厂长┃资源",
       "type": 3,
       "api": "csp_NewCz",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "https://czzy.top/"
     },
     {
@@ -137,9 +98,6 @@
       "name": "视觉┃直连",
       "type": 3,
       "api": "csp_Xinsj",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "https://www.80yy3.com/"
     },
     {
@@ -147,9 +105,6 @@
       "name": "在线┃之家",
       "type": 3,
       "api": "csp_Zxzj",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "https://www.zxzjhd.com/"
     },
     {
@@ -157,9 +112,6 @@
       "name": "糯米┃嗅探",
       "type": 3,
       "api": "csp_Nmys",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/nmys.json?ref=master"
     },
     {
@@ -167,9 +119,6 @@
       "name": "毛驴┃多线",
       "type": 3,
       "api": "csp_MLYS",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "https://www.maolvys.com/"
     },
     {
@@ -177,47 +126,32 @@
       "name": "奥特┃直连",
       "type": 3,
       "api": "Auete",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "https://auete.pro/"
     },
     {
       "key": "Bttoo",
       "name": "比特┃秒播",
       "type": 3,
-      "api": "csp_Bttwoo",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_Bttwoo"
     },
     {
       "key": "Libvio",
       "name": "利播┃直连",
       "type": 3,
       "api": "csp_Libvio",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "https://www.libvio.pw/"
     },
     {
       "key": "DiDuan",
       "name": "低端┃外剧",
       "type": 3,
-      "api": "csp_Ddrk",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_Ddrk"
     },
     {
       "key": "csp_Jianpian",
       "name": "荐片┃p2p",
       "type": 3,
       "api": "csp_Jianpian",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "http://api2.rinhome.com"
     },
     {
@@ -225,9 +159,6 @@
       "name": "SixV┃磁力",
       "type": 3,
       "api": "csp_SixV",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "http://www.xb6v.com/"
     },
     {
@@ -235,37 +166,25 @@
       "name": "荐片┃磁力",
       "type": 3,
       "api": "csp_Jianpian",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "http://api2.rinhome.com"
     },
     {
       "key": "SP360",
       "name": "360┃解析",
       "type": 3,
-      "api": "csp_SP360",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_SP360"
     },
     {
       "key": "Djuu",
       "name": "无忧┃短剧",
       "type": 3,
-      "api": "csp_Djuu",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_Djuu"
     },
     {
       "key": "骚火",
       "name": "骚火┃嗅探",
       "type": 3,
       "api": "csp_XBPQ",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "[object Object]"
     },
     {
@@ -273,9 +192,6 @@
       "name": "️奇优┃xBPQ",
       "type": 3,
       "api": "csp_XBPQ",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "http://152.32.170.60/Yoursmile7/TVBox/raw/branch/sub/奇优.json"
     },
     {
@@ -283,9 +199,6 @@
       "name": "明星┃演唱会",
       "type": 3,
       "api": "csp_Bili",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/MTV.json?ref=master"
     },
     {
@@ -293,9 +206,6 @@
       "name": "酷奇┃MV",
       "type": 3,
       "api": "csp_XBPQ",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "[object Object]"
     },
     {
@@ -303,82 +213,55 @@
       "name": "企鹅┃体育",
       "type": 3,
       "api": "csp_XPath",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/tlive.json?ref=master"
     },
     {
       "key": "Dm84",
       "name": "动漫┃巴士",
       "type": 3,
-      "api": "csp_Dm84",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_Dm84"
     },
     {
       "key": "Ying",
       "name": "樱花┃动漫",
       "type": 3,
-      "api": "csp_Ying",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_Ying"
     },
     {
       "key": "Ysj",
       "name": "异界┃动漫",
       "type": 3,
-      "api": "csp_Ysj",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_Ysj"
     },
     {
       "key": "Anime",
       "name": "花子┃动漫",
       "type": 3,
-      "api": "csp_Anime1",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_Anime1"
     },
     {
       "key": "Yj1211",
       "name": "竞技┃直播",
       "type": 3,
-      "api": "csp_Yj1211",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_Yj1211"
     },
     {
       "key": "YGP",
       "name": "叨观┃荐影",
       "type": 3,
-      "api": "csp_YGP",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_YGP"
     },
     {
       "key": "Aid",
       "name": "急救┃教学",
       "type": 3,
-      "api": "csp_FirstAid",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_FirstAid"
     },
     {
       "key": "csp_MIPanSo",
       "name": "米盘┃搜索",
       "type": 3,
       "api": "csp_MIPanSo",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "[object Object]"
     },
     {
@@ -386,9 +269,6 @@
       "name": "夸克┃搜索",
       "type": 3,
       "api": "csp_PanSearch",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "[object Object]"
     },
     {
@@ -396,9 +276,6 @@
       "name": "易搜┃搜索",
       "type": 3,
       "api": "csp_YiSo",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "[object Object]"
     },
     {
@@ -406,9 +283,6 @@
       "name": "盘搜┃搜索",
       "type": 3,
       "api": "csp_PanSou",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "[object Object]"
     },
     {
@@ -416,57 +290,39 @@
       "name": "盘Se┃搜索",
       "type": 3,
       "api": "csp_PanSearch",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "[object Object]"
     },
     {
       "key": "csp_Local",
       "name": "本地┃视频",
       "type": 3,
-      "api": "csp_Local",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_Local"
     },
     {
       "key": "push_agent",
       "name": "手机┃推送",
       "type": 3,
       "api": "csp_Push",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "[object Object]"
     },
     {
       "key": "csp_Nbys",
       "name": "泥巴┃梯子",
       "type": 3,
-      "api": "csp_NiNi",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_NiNi"
     },
     {
       "key": "WoGG",
       "name": "玩偶┃4K",
       "type": 3,
       "api": "WoGG",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
       "ext": "[object Object]"
     },
     {
       "key": "csp_Local",
       "name": "本地┃视频",
       "type": 3,
-      "api": "csp_Local",
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2
+      "api": "csp_Local"
     }
   ],
   "parses": [

@@ -1,5 +1,5 @@
 {
-  "spider": "https://already.free.hr/kvymin/TVRule/main/custom_spider.jar;md5;c628862b32ac96aac6e77470f2578b0b",
+  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/kvymin/TVRule/main/custom_spider.jar;md5;c628862b32ac96aac6e77470f2578b0b",
   "sites": [
     {
       "key": "DouDou",
@@ -57,14 +57,14 @@
       "key": "追剧",
       "name": "追剧┃App",
       "type": 3,
-      "api": "csp_AppTT"
+      "api": "csp_AppTT", 
       "ext": "AO7TcBkd8Jqf5UgA7xXA6dVlLcc="
     },
     {
       "key": "天天",
       "name": "天天┃App",
       "type": 3,
-      "api": "csp_AppTT"
+      "api": "csp_AppTT", 
       "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
     },
     {

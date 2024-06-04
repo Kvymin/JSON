@@ -1,5 +1,5 @@
 {
-  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/kvymin/TVRule/main/custom_spider.jar;md5;c628862b32ac96aac6e77470f2578b0b",
+  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/kvymin/TVRule/main/custom_spider.jar;md5;f4944389ac1b059113ce85d167beba52",
   "sites": [
     {
       "key": "DouDou",
@@ -37,8 +37,6 @@
       "name": "苹果┃复活",
       "type": 3,
       "api": "csp_LiteApple",
-      "searchable": 1,
-      "changeable": 1,
       "playerType": 1
     },
     {
@@ -213,13 +211,6 @@
       "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/MTV.json?ref=master"
     },
     {
-      "key": "酷奇MV",
-      "name": "酷奇┃MV",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "[object Object]"
-    },
-    {
       "key": "企鹅体育xp",
       "name": "企鹅┃体育",
       "type": 3,
@@ -273,42 +264,63 @@
       "name": "米盘┃搜索",
       "type": 3,
       "api": "csp_MIPanSo",
-      "ext": "[object Object]"
+      "ext": {
+        "pan": "quark",
+        "quarkCookie": "http://127.0.0.1:9978/file/fatcat/cookie.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
       "key": "QuarkPanso",
       "name": "夸克┃搜索",
       "type": 3,
       "api": "csp_PanSearch",
-      "ext": "[object Object]"
+      "ext": {
+        "pan": "quark",
+        "quarkCookie": "http://127.0.0.1:9978/file/fatcat/cookie.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
       "key": "YiSo",
       "name": "易搜┃搜索",
       "type": 3,
       "api": "csp_YiSo",
-      "ext": "[object Object]"
+      "ext": {
+        "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
       "key": "PanSou",
       "name": "盘搜┃搜索",
       "type": 3,
       "api": "csp_PanSou",
-      "ext": "[object Object]"
+      "ext": {
+        "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
       "key": "PanSearch",
       "name": "盘Se┃搜索",
       "type": 3,
       "api": "csp_PanSearch",
-      "ext": "[object Object]"
+      "ext": {
+        "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
       "key": "push_agent",
       "name": "手机┃推送",
       "type": 3,
       "api": "csp_Push",
-      "ext": "[object Object]"
+      "ext": {
+        "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+        "quarkCookie": "http://127.0.0.1:9978/file/fatcat/cookie.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
       "key": "csp_Nbys",
@@ -321,7 +333,13 @@
       "name": "玩偶┃4K",
       "type": 3,
       "api": "WoGG",
-      "ext": "[object Object]"
+      "ext": {
+        "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+        "quarkCookie": "http://127.0.0.1:9978/file/fatcat/cookie.txt",
+        "from": "4k|auto|fhd",
+        "siteUrl": "https://www.wogg.link/",
+        "danMu": "弹"
+      }
     },
     {
       "key": "csp_Local",
@@ -361,5 +379,9 @@
       "type": 0,
       "url": "https://www.pouyun.com/?url="
     }
+  ],
+  "ads": [
+    "static-mozai.4gtv.tv",
+    "s3t3d2y8.afcdn.net"
   ]
 }

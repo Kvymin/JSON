@@ -5,64 +5,64 @@
       "key": "豆瓣",
       "name": "豆瓣┃评分",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./豆瓣评分.js"
+      "api": "./quickjs/lib/drpy2.min.js",
+      "ext": "./quickjs/豆瓣评分.js"
     },
     {
       "key": "南瓜影视",
       "name": "南瓜┃app",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./南瓜影视[优].js"
+      "api": "./quickjs/lib/drpy2.min.js",
+      "ext": "./quickjs/南瓜影视[优].js"
     },
     {
       "key": "可可影视",
       "name": "可可┃极速",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./可可影视[优].js"
+      "api": "./quickjs/lib/drpy2.min.js",
+      "ext": "./quickjs/可可影视[优].js"
     },
     {
       "key": "素白白",
       "name": "素白白┃无广",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./素白白[优].js"
+      "api": "./quickjs/lib/drpy2.min.js",
+      "ext": "./quickjs/素白白[优].js"
     },
     {
       "key": "网飞猫",
       "name": "网飞猫┃直连",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./网飞猫[优].js"
+      "api": "./quickjs/lib/drpy2.min.js",
+      "ext": "./quickjs/网飞猫[优].js"
     },
     {
       "key": "烧火影视",
       "name": "烧火┃多线",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./烧火影视[优].js"
+      "api": "./quickjs/lib/drpy2.min.js",
+      "ext": "./quickjs/烧火影视[优].js"
     },
     {
       "key": "哈皮影视",
       "name": "哈皮┃直连",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./哈皮影视[优].js"
+      "api": "./quickjs/lib/drpy2.min.js",
+      "ext": "./quickjs/哈皮影视[优].js"
     },
     {
       "key": "荐片",
       "name": "荐片┃p2p",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./荐片[优].js"
+      "api": "./quickjs/lib/drpy2.min.js",
+      "ext": "./quickjs/荐片[优].js"
     },
     {
       "key": "LIBVIO",
       "name": "LIBVIO┃外剧",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./LIBVIO[优].js"
+      "api": "./quickjs/lib/drpy2.min.js",
+      "ext": "./quickjs/LIBVIO[优].js"
     },
     {
       "key": "量子资源",

@@ -1,6 +1,6 @@
 // 放牛 http://tvbox.xn--4kq62z5rby2qupq9ub.xyz/
 {
-  "spider": "./custom_spider.jar;md5;eb76763ef4ebfbf038b9e0c2c008a06b",
+  "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/kvymin/TVRule/main/custom_spider.jar;md5;eb76763ef4ebfbf038b9e0c2c008a06b",
   "wallpaper": "",
   "logo": "",
   "lives": [

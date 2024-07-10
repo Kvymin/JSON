@@ -6,7 +6,7 @@
 "sites":[
   {"key":"DouDou","name":"豆瓣┃评分","type":3,"api":"csp_DouDou"},
   {"key":"WoGG","name":"玩偶┃弹幕","type":3,"api":"csp_WoGG","ext":{"Cloud-drive":"TVRule/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.link/","danMu":"弹"}},
-  {"key":"Djuu","name":"无忧┃短剧","type":3,"api":"csp_Djuu"},
+  {"key":"短剧","name":"无忧┃短剧","type":3,"api":"csp_Djtt"},
   
   {"key":"NanGua","name":"南瓜┃多线","type":3,"api":"csp_NanGua"},
   {"key":"Kkys","name":"酷看┃秒播","type":3,"api":"csp_Kkys"},

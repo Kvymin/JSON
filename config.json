@@ -45,7 +45,7 @@
   {"key":"Aid","name":"急救┃教学","type":3,"api":"csp_FirstAid","style":{"type":"rect","ratio":3.8}},
 
   {"key":"MIPanSo","name":"米搜┃夸克","type":3,"api":"csp_MIPanSo","ext":{"Cloud-drive":"TVRule/Cloud-drive.txt","from":"4k|auto"}},
-  {"key":"Search","name":"盘se┃夸克","type":3,"api":"csp_PanSearch","ext":{"pan": "quark","Cloud-drive":"TVRule/Cloud-drive.txt","from":"4k|auto"}},
+  {"key":"Search","name":"盘se┃夸克","type":3,"api":"csp_PanSearch","ext":{"pan":"quark","Cloud-drive":"TVRule/Cloud-drive.txt","from":"4k|auto"}},
   {"key":"YiSo","name":"易搜┃阿里","type":3,"api":"csp_YiSo","ext":{"Cloud-drive":"TVRule/Cloud-drive.txt","from":"4k|auto"}},
   {"key":"PanSou","name":"盘搜┃阿里","type":3,"api":"csp_PanSou","ext":{"Cloud-drive":"TVRule/Cloud-drive.txt","from":"4k|auto"}},
   {"key":"UpYun","name":"Up搜┃阿里","type":3,"api":"csp_UpYun","ext":{"Cloud-drive":"TVRule/Cloud-drive.txt","from":"4k|auto"}},

@@ -7,9 +7,18 @@
       "name": "电视┃直播",
       "ua": "okhttp/3.12.13",
       "type": 0,
-      "url": "http://rihou.cc:555/gggg.nzk",
-      "epg": "https://epg.mxdyeah.top/api/diyp/?ch={name}&date={date}",
-      "logo": "https://live.mxdyeah.top/logo/{name}.png"
+      "url": "https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u"
+    },
+    {
+      "name": "直播┃嗅探",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+      "type": 0,
+      "url": "https://xhdwc.tk/xiutan.m3u"
+    },
+    {
+      "name": "直播┃IPV6",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u"
     }
   ],
   "sites": [

@@ -1,5 +1,5 @@
 {
-  "spider": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/custom_spider.jar?ref=master;md5;71d846866f2ceb9666ba114e5963983f",
+  "spider": "./custom_spider.jar;md5;71d846866f2ceb9666ba114e5963983f",
   "wallpaper": "",
   "logo": "",
   "lives": [
@@ -15,16 +15,6 @@
       "name": "豆瓣┃评分",
       "type": 3,
       "api": "csp_DouDou"
-    },
-    {
-      "key": "py_cctv_集合",
-      "name": "央视┃集合",
-      "type": 3,
-      "api": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/pyramid/py_cntv.py?ref=master",
-      "style": {
-        "type": "rect",
-        "ratio": 1.485
-      }
     },
     {
       "key": "Djtt",

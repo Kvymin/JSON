@@ -1,5 +1,5 @@
 {
-  "spider": "./custom_spider.jar;md5;71d846866f2ceb9666ba114e5963983f",
+  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/Kvymin/TVRule/main/custom_spider.jar;md5;71d846866f2ceb9666ba114e5963983f",
   "wallpaper": "",
   "logo": "",
   "lives": [

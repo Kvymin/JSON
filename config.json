@@ -214,13 +214,14 @@
       "key": "Xdys",
       "name": "兄弟┃多线",
       "type": 3,
-      "api":
+      "api":"csp_Xdys"
+    },
     {
       "key": "csp_蚂蚁",
       "name": "蚂蚁┃无广",
       "type": 1,
       "api": "http://dsakf23665.com/api.php/provide/vod/from/NBY",
-      "playUrl": "json:http://121.62.61.51:6888//api//?key=qMdg1EDXPe9NH3bG0z&url="
+      "playUrl": "json:http://121.62.61.51:6888/api/?key=qMdg1EDXPe9NH3bG0z&url="
     },
     {
       "key": "Yj1211",

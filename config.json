@@ -1,3 +1,9 @@
+/*
+{"key":"Aikan","name":"爱看┃采集","type":3,"api":"csp_Aikan"},
+{"key":"Pptv","name":"屁颠┃影视","type":3,"api":"csp_Pptv"},
+{"key":"AppRZ","name":"忍者┃app","type":3,"api":"csp_AppRZ","ext":"http://rzys.xyz/"},
+*/
+
 {
   "spider": "./custom_spider.jar;md5;c33a0728ecfcc52ffe3ee6e345b3e39c",
   "sites": [
@@ -8,17 +14,22 @@
       "api": "csp_Douban"
     },
     {
-      "key": "Aikan",
-      "name": "爱看┃采集",
+      "key": "NanGua",
+      "name": "南瓜┃App",
       "type": 3,
-      "api": "csp_Aikan"
+      "api": "csp_NanGua"
     },
     {
-      "key": "AppRZ",
-      "name": "忍者┃app",
+      "key": "Nongm",
+      "name": "农民┃独家",
       "type": 3,
-      "api": "csp_AppRZ",
-      "ext": "http://rzys.xyz/"
+      "api": "csp_Nongm"
+    },
+    {
+      "key": "SuBaiBai",
+      "name": "素白┃影视",
+      "type": 3,
+      "api": "csp_SuBaiBai"
     },
     {
       "key": "Bttwo",
@@ -77,12 +88,6 @@
       "ext": "http://api2.rinhome.com"
     },
     {
-      "key": "csp_NanGua",
-      "name": "南瓜┃APP",
-      "type": 3,
-      "api": "csp_NanGua"
-    },
-    {
       "key": "Kanke",
       "name": "看客┃不卡",
       "type": 3,
@@ -95,28 +100,8 @@
       "api": "csp_Keke"
     },
     {
-      "key": "Kugou",
-      "name": "酷狗┃音乐",
-      "type": 3,
-      "api": "csp_Kugou",
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
-    {
-      "key": "LaoBaiBook",
-      "name": "老白┃看书",
-      "type": 3,
-      "api": "csp_LaoBaiBook",
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
-    {
       "key": "Lggys",
-      "name": "哥哥┃不卡",
+      "name": "攻阁┃不卡",
       "type": 3,
       "api": "csp_Lggys"
     },
@@ -133,28 +118,10 @@
       "api": "csp_MaoLv"
     },
     {
-      "key": "NanGua",
-      "name": "南瓜┃App",
-      "type": 3,
-      "api": "csp_NanGua"
-    },
-    {
       "key": "csp_Nkdy",
       "name": "耐看┃APP",
       "type": 3,
       "api": "csp_Nkdy"
-    },
-    {
-      "key": "Nongm",
-      "name": "农民┃独家",
-      "type": 3,
-      "api": "csp_Nongm"
-    },
-    {
-      "key": "Pptv",
-      "name": "屁颠┃影视",
-      "type": 3,
-      "api": "csp_Pptv"
     },
     {
       "key": "QIYIU",
@@ -185,12 +152,6 @@
       "name": "360┃官源",
       "type": 3,
       "api": "csp_SP360"
-    },
-    {
-      "key": "SuBaiBai",
-      "name": "素白┃影视",
-      "type": 3,
-      "api": "csp_SuBaiBai"
     },
     {
       "key": "Suxun",
@@ -236,7 +197,7 @@
       "api": "csp_YGP"
     },
     {
-      "key": "csp_FirstAid",
+      "key": "FirstAid",
       "name": "急救┃教学",
       "type": 3,
       "api": "csp_FirstAid",
@@ -247,21 +208,21 @@
       "gridview": "0-0-4.1"
     },
     {
-      "key": "csp_Netfixtv",
+      "key": "Duopan",
       "name": "至臻┃自营",
       "type": 3,
       "api": "csp_Duopan",
       "ext": "http://mpanso.com/"
     },
     {
-      "key": "csp_wanou",
+      "key": "wanou",
       "name": "玩偶┃无广",
       "api": "csp_Wogg",
       "type": 3,
       "ext": "https://wogg.888484.xyz/"
     },
     {
-      "key": "米搜",
+      "key": "MiSou",
       "name": "米搜┃自营",
       "type": 3,
       "api": "csp_MiSou",
@@ -283,6 +244,26 @@
       "type": 3,
       "api": "csp_Config",
       "ext": ""
+    },
+    {
+      "key": "Kugou",
+      "name": "酷狗┃音乐",
+      "type": 3,
+      "api": "csp_Kugou",
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
+    },
+    {
+      "key": "LaoBaiBook",
+      "name": "老白┃看书",
+      "type": 3,
+      "api": "csp_LaoBaiBook",
+      "style": {
+        "type": "rect",
+        "ratio": 1.333
+      }
     },
     {
       "key": "csp_YouShengBook",
@@ -314,7 +295,7 @@
       "url": "Web"
     },
     {
-      "name": "无敌",
+      "name": "小米无敌",
       "type": 1,
       "url": "https://cdn.suxun.site/api/?key=HRTgKIxjsFBAhDcrge&url=",
       "ext": {

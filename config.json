@@ -1,5 +1,5 @@
 {
-  "spider": "./custom_spider.jar;md5;c33a0728ecfcc52ffe3ee6e345b3e39c",
+  "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/kvymin/TVRule/main/custom_spider.jar;md5;c33a0728ecfcc52ffe3ee6e345b3e39c",
   "sites": [
     {
       "key": "豆瓣",

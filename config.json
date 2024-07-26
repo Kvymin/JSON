@@ -178,6 +178,16 @@
       "api":"csp_Xdys"
     },
     {
+      "key": "jqq",
+      "name": "剧圈┃xBPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.jqqzx.cc/vodshow/id/{cateId}/page/{catePg}.html",
+        "分类": "电影$dianying#电视剧$juji#综艺$zongyi#动漫$dongman"
+      }
+    },
+    {
       "key": "csp_蚂蚁",
       "name": "蚂蚁┃无广",
       "type": 1,
@@ -233,17 +243,13 @@
       "name": "易搜┃搜索",
       "type": 3,
       "api": "csp_YiSo",
-      "ext": {
-        "Cloud-drive": "TVRule/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
+      "ext": "TVRule/cookie.txt"
     },
     {
       "key": "配置",
       "name": "️配置┃中心",
       "type": 3,
-      "api": "csp_Config",
-      "ext": ""
+      "api": "csp_Config"
     },
     {
       "key": "Kugou",

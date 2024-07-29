@@ -1,5 +1,6 @@
 /*
 {"key":"Aikan","name":"爱看┃采集","type":3,"api":"csp_Aikan"},
+{"key":"AppRZ","name":"忍者┃app","type":3,"api":"csp_AppRZ","ext":"http://rzys.xyz/"},
 */
 
 {
@@ -72,13 +73,6 @@
       "name": "疯狗┃影视",
       "type": 3,
       "api": "csp_FengGo"
-    },
-    {
-      "key": "csp_AppRZ",
-      "name": " 忍者┃影视",
-      "type": 3,
-      "api": "csp_AppRZ",
-      "ext": "http://rzys.xyz/"
     },
     {
       "key": "FreeOK",

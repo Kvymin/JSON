@@ -1,7 +1,5 @@
 /*
 {"key":"Aikan","name":"爱看┃采集","type":3,"api":"csp_Aikan"},
-{"key":"Pptv","name":"屁颠┃影视","type":3,"api":"csp_Pptv"},
-{"key":"AppRZ","name":"忍者┃app","type":3,"api":"csp_AppRZ","ext":"http://rzys.xyz/"},
 */
 
 {
@@ -45,6 +43,13 @@
       "ext": "https://czzy.top/"
     },
     {
+      "key": "csp_Pptv",
+      "name": "皮皮┃多线",
+      "type": 3,
+      "api": "csp_Pptv",
+      "ext": "https://www.myd04.com"
+    },
+    {
       "key": "Dm84",
       "name": "动漫┃巴士",
       "type": 3,
@@ -67,6 +72,13 @@
       "name": "疯狗┃影视",
       "type": 3,
       "api": "csp_FengGo"
+    },
+    {
+      "key": "csp_AppRZ",
+      "name": " 忍者┃影视",
+      "type": 3,
+      "api": "csp_AppRZ",
+      "ext": "http://rzys.xyz/"
     },
     {
       "key": "FreeOK",

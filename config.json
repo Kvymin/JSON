@@ -3,21 +3,20 @@
 */
 
 {
-  "spider": "./custom_spider.jar;md5;6ddd3ff435784800d0d8ca1df1e2aa07",
+  "spider": "https://raw.gitmirror.com/kvymin/TVRule/main/custom_spider.jar;md5;6ddd3ff435784800d0d8ca1df1e2aa07",
   "sites": [
     {
       "key": "豆瓣",
       "name": "豆瓣┃评分",
       "type": 3,
       "api": "csp_Douban"
-    },
-{"key":"Aikan","name":"爱看┃采集","type":3,"api":"csp_Aikan"},
+    }, 
+    {"key":"Aikan","name":"爱看┃采集","type":3,"api":"csp_Aikan"},
     {
-      "key":"AppRZ",
-      "name":"忍者┃多线",
-      "type":3,
-      "api":"csp_AppRZ",
-      "ext":"http://rzys.xyz/"
+      "key": "NanGua",
+      "name": "南瓜┃App",
+      "type": 3,
+      "api": "csp_NanGua"
     },
     {
       "key": "Nongm",
@@ -32,10 +31,11 @@
       "api": "csp_SuBaiBai"
     },
     {
-      "key": "NanGua",
-      "name": "南瓜┃App",
-      "type": 3,
-      "api": "csp_NanGua"
+      "key":"AppRZ",
+      "name":"忍者┃多线",
+      "type":3,
+      "api":"csp_AppRZ",
+      "ext":"http://rzys.xyz/"
     },
     {
       "key": "Bttwo",

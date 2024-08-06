@@ -11,12 +11,12 @@
       "type": 3,
       "api": "csp_Douban"
     },
-{"key":"AppRZ","name":"忍者┃app","type":3,"api":"csp_AppRZ","ext":"http://rzys.xyz/"},
     {
-      "key": "NanGua",
-      "name": "南瓜┃App",
-      "type": 3,
-      "api": "csp_NanGua"
+      "key":"AppRZ",
+      "name":"忍者┃多线",
+      "type":3,
+      "api":"csp_AppRZ",
+      "ext":"http://rzys.xyz/"
     },
     {
       "key": "Nongm",
@@ -29,6 +29,12 @@
       "name": "素白┃影视",
       "type": 3,
       "api": "csp_SuBaiBai"
+    },
+    {
+      "key": "NanGua",
+      "name": "南瓜┃App",
+      "type": 3,
+      "api": "csp_NanGua"
     },
     {
       "key": "Bttwo",

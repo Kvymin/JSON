@@ -4,7 +4,7 @@
 */
 
 {
-  "spider": "./custom_spider.jar;md5;c33a0728ecfcc52ffe3ee6e345b3e39c",
+  "spider": "./custom_spider.jar;md5;6ddd3ff435784800d0d8ca1df1e2aa07",
   "sites": [
     {
       "key": "豆瓣",
@@ -255,14 +255,25 @@
       "name": "至臻┃自营",
       "type": 3,
       "api": "csp_Duopan",
-      "ext": "http://mpanso.com/"
+      "ext": {
+        "site_urls": [
+          "http://mihdr.top",
+          "http://mpanso.com"
+        ]
+      }
     },
     {
       "key": "wanou",
       "name": "玩偶┃无广",
       "api": "csp_Wogg",
       "type": 3,
-      "ext": "https://wogg.888484.xyz/"
+      "ext": {
+        "site_urls": [
+          "https://wogg.xxooo.cf/",
+          "https://www.wogg.bf/",
+          "https://www.wogg.net/"
+        ]
+      }
     },
     {
       "key": "MiSou",
@@ -324,43 +335,14 @@
   ],
   "parses": [
     {
-      "name": "Json聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Web聚合",
-      "type": 3,
-      "url": "Web"
-    },
-    {
       "name": "无敌",
       "type": 1,
-      "url": "https://cdn.suxun.site/api/?key=HRTgKIxjsFBAhDcrge&url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
+      "url": "https://cdn.suxun.site/api/?key=HRTgKIxjsFBAhDcrge&url="
+    },
+    {
+      "name": "小米",
+      "type": 1,
+      "url": "http://466.jxjx.8.ahrljk.cn:8663/api/?key=gG4Iq5xVZXc8R4jmTn&url="
     }
   ]
 }

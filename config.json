@@ -3,7 +3,7 @@
 */
 
 {
-  "spider": "https://raw.gitmirror.com/kvymin/TVRule/main/custom_spider.jar;md5;6ddd3ff435784800d0d8ca1df1e2aa07",
+  "spider": "./custom_spider.jar;md5;6ddd3ff435784800d0d8ca1df1e2aa07",
   "sites": [
     {
       "key": "豆瓣",

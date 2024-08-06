@@ -1,6 +1,5 @@
 /*
 {"key":"Aikan","name":"爱看┃采集","type":3,"api":"csp_Aikan"},
-{"key":"AppRZ","name":"忍者┃app","type":3,"api":"csp_AppRZ","ext":"http://rzys.xyz/"},
 */
 
 {
@@ -12,6 +11,7 @@
       "type": 3,
       "api": "csp_Douban"
     },
+{"key":"AppRZ","name":"忍者┃app","type":3,"api":"csp_AppRZ","ext":"http://rzys.xyz/"},
     {
       "key": "NanGua",
       "name": "南瓜┃App",

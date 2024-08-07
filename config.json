@@ -3,7 +3,7 @@
 */
 
 {
-  "spider": "./custom_spider.jar;md5;6ddd3ff435784800d0d8ca1df1e2aa07",
+  "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/kvymin/TVRule/main/custom_spider.jar;md5;6ddd3ff435784800d0d8ca1df1e2aa07",
   "sites": [
     {
       "key": "Douban",
@@ -15,7 +15,7 @@
       "key": "金牌",
       "name": "金牌┃python",
       "type": 3,
-      "api": "./pyramid/金牌.py"
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/kvymin/TVRule/main/pyramid/金牌.py"
     },
     {
       "key": "NanGua",

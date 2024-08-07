@@ -1,0 +1,279 @@
+{
+  "video": {
+    "sites": [
+      {
+        "key": "douban",
+        "name": "豆瓣评分",
+        "type": 3,
+        "indexs": 1,
+        "api": "./douban_open.js"
+      },
+      {
+        "key": "cntv",
+        "name": "聚视频",
+        "type": 3,
+        "api": "./cntv_open.js"
+      },
+      {
+        "key": "yinyuetai_open",
+        "name": "音悦台",
+        "type": 3,
+        "api": "./yinyuetai_open.js"
+      },
+      {
+        "key": "czzy_open",
+        "name": "厂长资源",
+        "type": 3,
+        "api": "./czzy_open.js"
+      },
+      {
+        "key": "liteApple",
+        "name": "小苹果",
+        "type": 3,
+        "api": "./LiteApple_open.js"
+      },
+      {
+        "key": "yqktv",
+        "name": "一起看",
+        "type": 3,
+        "api": "./yqktv_open.js"
+      },
+      {
+        "key": "ng",
+        "name": "南瓜影院",
+        "type": 3,
+        "api": "./nangua_open.js"
+      },
+      {
+        "key": "xinshijue",
+        "name": "新视觉",
+        "type": 3,
+        "api": "./xinshijue_open.js"
+      },
+      {
+        "key": "anfun_open",
+        "name": "AnFun动漫",
+        "type": 3,
+        "api": "./anfun_open.js"
+      },
+      {
+        "key": "ktv_open",
+        "name": "一起K歌",
+        "type": 3,
+        "api": "./ktv_open.js"
+      },
+      {
+        "key": "ddys_open",
+        "name": "低端影视",
+        "type": 3,
+        "indexs": 1,
+        "api": "./ddys_open.js"
+      },      
+      {
+        "key": "subaibai",
+        "name": "素白白",
+        "type": 3,
+        "api": "./subaibai_open.js"
+      },
+      {
+        "key": "在线之家",
+        "name": "在线之家",
+        "type": 3,
+        "api": "./zxzj_open.js"
+      },
+      {
+        "key": "libo",
+        "name": "libvio",
+        "type": 3,
+        "api": "./libvio_open.js"
+      },
+      {
+        "key": "futv",
+        "name": "腐剧场",
+        "type": 3,
+        "api": "./AppYsV2_open.js",
+        "ext": "http://app.zhaifutvapp.com/ruifenglb_api.php/v1.vod"
+      },
+      {
+        "key": "量子",
+        "name": "量子采集",
+        "type": 3,
+        "api": "./lz_open.js",
+        "ext": {
+          "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8",
+            "categories": [
+              "动作片", "爱情片", "喜剧片", "科幻片", "恐怖片", "剧情片", "战争片", "短剧", "国产剧", "欧美剧", "香港剧", "韩国剧", "日本剧", "台湾剧", "海外剧", "泰国剧", "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "海外动漫", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "记录片", "足球", "篮球", "网球", "斯诺克"
+            ]
+          }
+      },
+      {
+        "key": "非凡",
+        "name": "非凡采集",
+        "type": 3,
+        "api": "./ff_open.js",
+        "ext": {
+          "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8",
+          "categories": [
+            "动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","纪录片","动画片","国产剧","欧美剧","韩剧","日剧","港剧","台剧","泰剧","海外剧","大陆综艺","日韩综艺","港台综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"
+            ]
+          }
+      },
+      {
+        "key": "火狐",
+        "name": "火狐采集",
+        "type": 3,
+        "api": "./ffm3u8_open.js",
+        "ext": {
+          "url": "https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/",
+          "categories": [
+            "动作片","爱情片","喜剧片","科幻片","恐怖片","剧情片","战争片","灾难片","悬疑片","犯罪片","奇幻片","短剧","内地剧","欧美剧","香港剧","韩剧","日剧","马泰剧","中国动漫","日本动漫","欧美动漫","欧美动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺","记录片"
+          ]
+        }
+      }
+    ]
+  },
+  "read": {
+    "sites": [
+      {
+        "key": "13bqg",
+        "name": "新笔趣阁",
+        "type": 10,
+        "api": "./13bqg_open.js"
+      },
+      {
+        "key": "bookan",
+        "name": "博看听书",
+        "type": 10,
+        "api": "./bookan_open.js"
+      },
+      {
+        "key": "爱上你听书网",
+        "name": "爱上听书",
+        "type": 10,
+        "api": "./230ts_book_open.js"
+      }
+    ]
+  },
+  "comic": {
+    "sites": [
+      {
+        "key": "bengou",
+        "name": "笨狗漫画",
+        "type": 20,
+        "api": "./bengou_open.js"
+      },
+      {
+        "key": "baozimh",
+        "name": "包子漫画",
+        "type": 20,
+        "api": "./baozimh_open.js"
+      }
+    ]
+  },
+  "pan": {
+    "sites": [
+      {
+        "key": "alist",
+        "name": "Alist",
+        "type": 40,
+        "api": "./alist_open.js",
+        "ext": [
+          {
+            "name": "🙋丫仙女",
+            "server": "http://alist.xiaoya.pro/",
+            "startPage": "/",
+            "showAll": false,
+            "search": true,
+            "headers": {
+        "Authorization": ""
+            },
+            "params": {
+        "/abc": {
+          "password": "123"
+              },
+        "/abc/abc": {
+          "password": "123"
+              }
+            }
+          },
+          {
+            "name": "小雅",
+            "server": "http://alist.xiaoya.pro/"
+          }
+        ]
+      }
+    ]
+  },
+    "color": [        
+        {
+            "light": {
+            "bg": "https://i2.100024.xyz/2024/01/13/qrnuwt.webp",
+            "bgMask": "0x50ffffff",
+            "primary": "0xFF2B6C00",
+            "onPrimary": "0xFFFFFFFF",
+            "primaryContainer": "0xFFA6F779",
+            "onPrimaryContainer": "0xFF082100",
+            "secondary": "0xFF55624C",
+            "onSecondary": "0xFFFFFFFF",
+            "secondaryContainer": "0xFFD9E7CA",
+            "onSecondaryContainer": "0xFF131F0D",
+            "tertiary": "0xFF386666",
+            "onTertiary": "0xFFFFFFFF",
+            "tertiaryContainer": "0xFFBBEBEB",
+            "onTertiaryContainer": "0xFF002020",
+            "error": "0xFFBA1A1A",
+            "onError": "0xFFFFFFFF",
+            "errorContainer": "0xFFFFDAD6",
+            "onErrorContainer": "0xFF410002",
+            "background": "0xFFFDFDF5",
+            "onBackground": "0xFF1A1C18",
+            "surface": "0xFFFDFDF5",
+            "onSurface": "0xFF1A1C18",
+            "surfaceVariant": "0xFFE0E4D6",
+            "onSurfaceVariant": "0xFF1A1C18",
+            "inverseSurface": "0xFF2F312C",
+            "onInverseSurface": "0xFFF1F1EA",
+            "outline": "0xFF74796D",
+            "outlineVariant": "0xFFC3C8BB",
+            "shadow": "0xFF000000",
+            "scrim": "0xFF000000",
+            "inversePrimary": "0xFF8CDA60",
+            "surfaceTint": "0xFF2B6C00"
+        },
+            "dark": {
+            "bg": "https://i2.100024.xyz/2024/01/13/qrc37o.webp",
+            "bgMask": "0x50000000",
+            "primary": "0xFF8CDA60",
+            "onPrimary": "0xFF133800",
+            "primaryContainer": "0xFF1F5100",
+            "onPrimaryContainer": "0xFFA6F779",
+            "secondary": "0xFFBDCBAF",
+            "onSecondary": "0xFF283420",
+            "secondaryContainer": "0xFF3E4A35",
+            "onSecondaryContainer": "0xFFD9E7CA",
+            "tertiary": "0xFFA0CFCF",
+            "onTertiary": "0xFF003737",
+            "tertiaryContainer": "0xFF1E4E4E",
+            "onTertiaryContainer": "0xFFBBEBEB",
+            "error": "0xFFFFB4AB",
+            "errorContainer": "0xFF93000A",
+            "onError": "0xFF690005",
+            "onErrorContainer": "0xFFFFDAD6",
+            "background": "0xFF1A1C18",
+            "onBackground": "0xFFE3E3DC",
+            "outline": "0xFF8D9286",
+            "onInverseSurface": "0xFF1A1C18",
+            "inverseSurface": "0xFFE3E3DC",
+            "inversePrimary": "0xFF2B6C00",
+            "shadow": "0xFF000000",
+            "surfaceTint": "0xFF8CDA60",
+            "outlineVariant": "0xFF43483E",
+            "scrim": "0xFF000000",
+            "surface": "0xFF1A1C18",
+            "onSurface": "0xFFC7C7C0",
+            "surfaceVariant": "0xFF43483E",
+            "onSurfaceVariant": "0xFFC7C7C0"
+        }
+      }
+  ]
+}

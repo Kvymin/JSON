@@ -1,179 +1,121 @@
 {
-  "spider": " ",
   "sites": [
     {
-      "key": "豆瓣",
+      "key": "douban",
       "name": "豆瓣┃评分",
       "type": 3,
-      "api": "./quickjs/lib/drpy2.min.js",
-      "ext": "./quickjs/豆瓣评分.js"
+      "api": "./CatVodOpen/douban_open.js",
+      "indexs": 1
     },
     {
-      "key": "南瓜影视",
-      "name": "南瓜┃app",
+      "key": "cntv",
+      "name": "聚视频┃央视",
       "type": 3,
-      "api": "./quickjs/lib/drpy2.min.js",
-      "ext": "./quickjs/南瓜影视[优].js"
+      "api": "./CatVodOpen/cntv_open.js"
     },
     {
-      "key": "可可影视",
-      "name": "可可┃极速",
+      "key": "yiqikan",
+      "name": "一起看┃App",
       "type": 3,
-      "api": "./quickjs/lib/drpy2.min.js",
-      "ext": "./quickjs/可可影视[优].js"
+      "api": "./CatVodOpen/yiqikan.js"
     },
     {
-      "key": "素白白",
-      "name": "素白白┃无广",
+      "key": "liteApple",
+      "name": "小苹果┃复活",
       "type": 3,
-      "api": "./quickjs/lib/drpy2.min.js",
-      "ext": "./quickjs/素白白[优].js"
+      "api": "./CatVodOpen/LiteApple_open.js"
     },
     {
-      "key": "网飞猫",
-      "name": "网飞猫┃直连",
+      "key": "nangua",
+      "name": "南瓜┃影视",
       "type": 3,
-      "api": "./quickjs/lib/drpy2.min.js",
-      "ext": "./quickjs/网飞猫[优].js"
+      "api": "./CatVodOpen/nangua_open.js"
     },
     {
-      "key": "烧火影视",
-      "name": "烧火┃多线",
+      "key": "xinshijue",
+      "name": "新视觉┃影视",
       "type": 3,
-      "api": "./quickjs/lib/drpy2.min.js",
-      "ext": "./quickjs/烧火影视[优].js"
+      "api": "./CatVodOpen/xinshijue_open.js"
     },
     {
-      "key": "哈皮影视",
-      "name": "哈皮┃直连",
+      "key": "ddys",
+      "name": "低端┃影视",
       "type": 3,
-      "api": "./quickjs/lib/drpy2.min.js",
-      "ext": "./quickjs/哈皮影视[优].js"
+      "api": "./CatVodOpen/ddys_open.js"
     },
     {
-      "key": "荐片",
-      "name": "荐片┃p2p",
+      "key": "libvio",
+      "name": "libvio┃影视",
       "type": 3,
-      "api": "./quickjs/lib/drpy2.min.js",
-      "ext": "./quickjs/荐片[优].js"
+      "api": "./CatVodOpen/libvio_open.js"
     },
     {
-      "key": "LIBVIO",
-      "name": "LIBVIO┃外剧",
+      "key": "bdys",
+      "name": "哔嘀┃影视",
       "type": 3,
-      "api": "./quickjs/lib/drpy2.min.js",
-      "ext": "./quickjs/LIBVIO[优].js"
+      "api": "./CatVodOpen/bdys.js"
     },
     {
-      "key": "量子资源",
-      "name": "量子┃采集",
-      "type": 1,
-      "api": "http://cj.lziapi.com/api.php/provide/vod/",
-      "categories": [
-        "短剧", "国产剧", "香港剧", "韩国剧", "欧美剧", "台湾剧", "日本剧", "海外剧", "泰国剧", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "动漫片", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "海外动漫", "记录片"
-      ]
+      "key": "czzy",
+      "name": "厂长┃资源",
+      "type": 3,
+      "api": "./CatVodOpen/czzy_open.js"
     },
     {
-      "key": "非凡",
+      "key": "subaibai",
+      "name": "素白白┃影视",
+      "type": 3,
+      "api": "./CatVodOpen/subaibai_open.js"
+    },
+    {
+      "key": "nkvod",
+      "name": "耐看┃影视",
+      "type": 3,
+      "api": "./CatVodOpen/nkvod_open.js"
+    },
+    {
+      "key": "ikanbot",
+      "name": "爱看┃机器人",
+      "type": 3,
+      "api": "./CatVodOpen/ikanbot_open.js"
+    },
+    {
+      "key": "anfun",
+      "name": "AnFun┃动漫",
+      "type": 3,
+      "api": "./CatVodOpen/anfun_open.js"
+    },
+    {
+      "key": "ff_open",
       "name": "非凡┃采集",
-      "type": 1,
-      "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
-      "categories": [
-        "短剧", "国产剧", "欧美剧", "香港剧", "韩国剧", "日本剧", "台湾剧", "海外剧", "泰国剧", "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "海外动漫", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "记录片", "足球", "篮球", "网球", "斯诺克", "伦理片", "动作片", "爱情片", "喜剧片", "科幻片", "恐怖片", "剧情片", "战争片"
-      ]
+      "type": 3,
+      "api": "./CatVodOpen/ff_open.js"
+    },
+    {
+      "key": "看球",
+      "name": "看球┃体育",
+      "type": 3,
+      "api": "./CatVodOpen/kanqiu_open.js",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "futv",
+      "name": "聚焦┃影视",
+      "type": 3,
+      "api": "./CatVodOpen/AppYsV2_open.js",
+      "ext": "https://www.mjlnl.cn/api.php/v1.vod"
+    },
+    {
+      "key": "bili",
+      "name": "B站┃哔哩",
+      "type": 3,
+      "api": "./CatVodOpen/bili_open.js",
+      "ext": {
+        "categories": "音乐#动画#电影#电视剧#番剧#综艺#影视#国创#纪录片#娱乐#游戏#搞笑#健身#动物世界#美食#体育#演讲#解说#知名UP主#荒野求生",
+        "cookie": "buvid3=9886CA0B-AE64-32E4-666C-20794FE81A1468431infoc; bmg_af_switch=1; bmg_src_def_domain=i1.hdslb.com; buvid4=2C4320EB-492C-0D62-D3E8-B4BD015BF09470372-124011203-8JCnvIOF1fjkunIJHyAYKQ%2B8ZCFZAbf3jRD2zFYr%2Fmz%2B%2BRgODui9m%2FfZAtFaI1ig; b_lsid=64F181F6_18CFBC3EEA6; _uuid=C7A125C6-CF69-F8B6-1D62-ABAD2E3B72F671068infoc; b_nut=100; buvid_fp=d1ed6cce1c9fa70c0cd7fe52d853ec23; SESSDATA=d25aab69%2C1720583012%2Cb9d9b%2A11CjBxXG36TKbR8UoflU2QC7PZ7nG3FIipmiKJhoy78zwYDIj9ICD10Cq5X3baq8q4HccSVnp0TE5IcWg1bzdJYkRTaWNqdTJkeVF0bTdYTkFXQjBpckg5aHBSR3hQbTNaZzJXT2czc0J6RUxramZiMXRDZE9BZGxwMURnT0JEM1I2a2xHTkJLcXZRIIEC; bili_jct=b2acff73ee2ae535253913d41927a51d; DedeUserID=1434816991; DedeUserID__ckMd5=1e33fe08c3f018cd; sid=8i2kamd6"
+      }
     }
-  ],
-  "rules": [
-    {
-      "name": "量子",
-      "hosts": ["vip.lz", "hd.lz", ".cdnlz", "v.cdnlz", "vip1.lz"],
-      "regex": ["17.2"]
-    },
-    {
-      "name": "非凡",
-      "hosts": ["vip.ffzy", "super.ffzy", "svip.ffzy"],
-      "regex": ["18"]
-    },
-    {
-      "name": "乐视",
-      "hosts": ["leshiyun"],
-      "regex": ["15.92"]
-    },
-    {
-      "name": "优质",
-      "hosts": ["yzzy"],
-      "regex": ["19.52", "19.13"]
-    },
-    {
-      "name": "快看",
-      "hosts": ["kuaikan"],
-      "regex": [
-        "20.123", "20.167",
-        "#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-KEY:METHOD((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "name": "索尼",
-      "hosts": ["suonizy"],
-      "regex": [
-        "16.3333",
-        "15.1666",
-        "15.2666",
-        "#EXTINF.*?\\s+.*?original.*?\\.ts\\s+"
-      ]
-    },
-    {
-      "name": "暴风",
-      "hosts": ["bf"],
-      "regex": ["#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"]
-    },
-    {
-      "name": "蜗牛",
-      "hosts": ["vip.123pan.cn", "rescdn.wuxivlog.cn"],
-      "regex": ["#EXT-X-DISCONTINUITY[\\s\\S]+?#EXT-X-DISCONTINUITY"]
-    },
-    {
-      "name": "农民嗅探",
-      "hosts": ["toutiaovod.com"],
-      "regex": ["video/tos/cn"]
-    },
-    {
-      "name": "火山",
-      "hosts": ["huoshan.com"],
-      "regex": ["item_id="]
-    },
-    {
-      "name": "抖音",
-      "hosts": ["douyin.com"],
-      "regex": ["is_play_url="]
-    },
-    {
-      "name": "星星",
-      "hosts": ["aws.ulivetv.net"],
-      "regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"]
-    },
-    {
-      "name": "磁力",
-      "hosts": ["magnet"],
-      "regex": ["最 新", "直 播", "更 新"]
-    }
-  ],
-  "parses": [
-    {"name":"聚合","type":3,"url":"Demo"},
-    {"name":"777","type":0,"url":"https://jx.777jiexi.com/player/?url="},
-    {"name":"杰森","type":0,"url":"https://jx.jsonplayer.com/player/?url="},
-    {"name":"战狼","type":0,"url":"https://jx.zhanlangbu.com/?url="},
-    {"name":"ok","type":0,"url":"https://okjx.cc/?url="},
-    {"name":"bozrc","type":0,"url":"https://jx.bozrc.com:4433/player/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","leshi","LS","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":""}}},
-    {"name":"不累","type":0,"url":"https://blbfq.f3322.net/player/analysis.php?v=","ext":{"flag":["qiyi","qq","letv","sohu","youku","mgtv","bilibili","wasu","xigua","1905"]}},
-    {"name":"cod","type":0,"url":"https://ksksl.codjx.com/?url="},
-    {"name":"byg解析","type":0,"url":"https://byg.ziqj5.shop/?url="},
-    {"name":"xmflv","type":0,"url":"https://jx.xmflv.com/?url="},
-    {"name":"365","type":0,"url":"https://chaxun.truechat365.com/?url=","ext":{"flag":["qq","腾讯","qiyi","iqiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}},
-    {"name":"26db","type":0,"url":"http://vip.26db.cn/g/?url="},
-    {"name":"看看","type":0,"url":"https://jx.m3u8.pw/?url="},
-    {"name":"FreeOK","type":0,"url":"https://play.86516.tk/OKPlayer/?url="},
-    {"name":"free","type":0,"url":"https://h5.freejson.xyz/player/?url="}
-  ],
-  "ads": ["static-mozai.4gtv.tv", "s3t3d2y8.afcdn.net"]
+  ]
 }

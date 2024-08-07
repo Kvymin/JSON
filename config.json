@@ -12,12 +12,6 @@
       "api": "csp_Douban"
     }, 
     {
-      "key": "金牌",
-      "name": "金牌┃python",
-      "type": 3,
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/kvymin/TVRule/main/pyramid/金牌.py"
-    },
-    {
       "key": "NanGua",
       "name": "南瓜┃App",
       "type": 3,

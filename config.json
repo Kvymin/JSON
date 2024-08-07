@@ -1,5 +1,5 @@
 {
-  "spider": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/custom_spider.jar?ref=main;md5;7f69a60f49cba319a30896e6681c798a",
+  "spider": "./custom_spider.jar;md5;7f69a60f49cba319a30896e6681c798a",
   "wallpaper": "",
   "logo": "",
   "lives": [

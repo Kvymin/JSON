@@ -6,11 +6,17 @@
   "spider": "./custom_spider.jar;md5;6ddd3ff435784800d0d8ca1df1e2aa07",
   "sites": [
     {
-      "key": "豆瓣",
+      "key": "Douban",
       "name": "豆瓣┃评分",
       "type": 3,
       "api": "csp_Douban"
     }, 
+    {
+      "key": "金牌",
+      "name": "金牌┃python",
+      "type": 3,
+      "api": "./pyramid/金牌.py"
+    },
     {
       "key": "NanGua",
       "name": "南瓜┃App",

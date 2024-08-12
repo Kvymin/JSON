@@ -4,8 +4,8 @@
       "key": "douban",
       "name": "豆瓣┃评分",
       "type": 3,
-      "api": "./open/douban_open.js",
-      "indexs": 1
+      "api": "./open/douban_open.js"
+      //"indexs": 1,
     },
     {
       "key": "saohuo",

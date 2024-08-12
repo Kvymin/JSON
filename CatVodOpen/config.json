@@ -55,7 +55,7 @@
     },
     {
        "key": "gzys",
-       "name": "瓜子影视",
+       "name": "瓜子┃直连",
        "type": 3,
        "api": "./open/lsq_open.js",
        "ext": "./quickjs/gzys.js"

@@ -23,12 +23,6 @@
       "ext": "http://114.103.30.6:18008"
     },
     {
-      "key": "taozi",
-      "name": "桃子┃多线",
-      "type": 3,
-      "api": "csp_Taozi"
-    },
-    {
       "key": "新6V",
       "name": "SixV┃磁力",
       "type": 3,

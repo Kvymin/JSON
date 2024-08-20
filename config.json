@@ -1,5 +1,4 @@
 {
-
   "spider": "https://already.free.hr/kvymin/TVRule/main/custom_spider.jar;md5;d163573f8ea1a791d35c308b6964fd33",
   "wallpaper": "",
   "sites": [
@@ -53,7 +52,7 @@
       "key": "新6V",
       "name": "新6V┃磁力",
       "type": 3,
-      "api": "csp_Xb6v"
+      "api": "csp_Xb6v",
       "ext": "http://www.xb6v.com/"
     },
     {

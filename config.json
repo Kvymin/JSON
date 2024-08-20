@@ -19,7 +19,8 @@
       "key": "slys",
       "name": "闪雷┃电影院",
       "type": 3,
-      "api": "csp_Shanlei"
+      "api": "csp_Shanlei",
+      "ext": "http://114.103.30.6:18008"
     },
     {
       "key": "taozi",
@@ -28,15 +29,8 @@
       "api": "csp_Taozi"
     },
     {
-      "key": "Jianpian",
-      "name": "荐片┃p2p",
-      "api": "csp_Jianpian",
-      "type": 3,
-      "ext": "http://api2.rinhome.com"
-    },
-    {
       "key": "新6V",
-      "name": "新6V┃磁力",
+      "name": "SixV┃磁力",
       "type": 3,
       "api": "csp_Xb6v",
       "ext": "http://www.xb6v.com/"
@@ -46,7 +40,6 @@
       "name": "玩偶┃4K",
       "api": "csp_Wogg",
       "type": 3,
-      "timeout": 30,
       "ext": "TVRule/token.txt"
     },
     {
@@ -109,11 +102,7 @@
       "name": "手机┃推送",
       "type": 3,
       "api": "csp_Push",
-      "ext": {
-        "aliToken": "tvfan/token.txt",
-        "quarkCookie": "tvfan/cookie.txt",
-        "from": "4k|auto|fhd"
-      }
+      "ext": "TVRule/token.txt"
     },
     {
       "key": "csp_Local",

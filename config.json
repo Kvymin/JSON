@@ -92,13 +92,6 @@
       "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/market.json?ref=main"
     },
     {
-      "key": "Gitcafe",
-      "name": "纸条┃搜索",
-      "type": 3,
-      "api": "csp_Gitcafe",
-      "ext": "TVRule/token.txt"
-    },
-    {
       "key": "push_agent",
       "name": "手机┃推送",
       "type": 3,

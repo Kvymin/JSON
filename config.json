@@ -23,7 +23,7 @@
       "ext": "http://114.103.30.6:18008"
     },
     {
-      "key": "新6V",
+      "key": "Xb6V",
       "name": "SixV┃磁力",
       "type": 3,
       "api": "csp_Xb6v",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "key": "Aid",
+      "key": "FirstAid",
       "name": "急救┃教学",
       "type": 3,
       "api": "csp_FirstAid",

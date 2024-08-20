@@ -7,7 +7,7 @@
       "name": "豆瓣┃评分",
       "type": 3,
       "api": "csp_Douban",
-      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/kvymin/TVRule/main/json/douban.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/kvymin/CatVodSpider/main/json/douban.json"
     },
     {
       "key": "mqsp",

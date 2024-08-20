@@ -1,32 +1,31 @@
 {
   "spider": "https://already.free.hr/kvymin/TVRule/main/custom_spider.jar;md5;d163573f8ea1a791d35c308b6964fd33",
-  "wallpaper": "",
   "sites": [
     {
       "key": "豆瓣",
       "name": "豆瓣┃评分",
       "type": 3,
       "api": "csp_Douban",
-        "ext": "https://already.free.hr/Kvymin/CatVodSpider/raw/main/json/douban.json"
+      "ext": "https://already.free.hr/Kvymin/CatVodSpider/raw/main/json/douban.json"
     },
     {
-       "key": "mqsp",
-       "name": "麻雀┃视频",
-       "type": 3,
-       "api": "csp_Mqsp"
-   },
+      "key": "mqsp",
+      "name": "麻雀┃视频",
+      "type": 3,
+      "api": "csp_Mqsp"
+    },
     {
-       "key": "slys",
-       "name": "闪雷┃电影院",
-       "type": 3,
-       "api": "csp_Shanlei"
-   },
+      "key": "slys",
+      "name": "闪雷┃电影院",
+      "type": 3,
+      "api": "csp_Shanlei"
+    },
     {
-        "key": "cms2",
-        "name": "4k┃备用",
-        "type": 3,
-        "api": "csp_AppYsV2",
-        "ext": "http://103.215.127.30:6688/api.php/app/"
+      "key": "cms2",
+      "name": "4k┃备用",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "ext": "http://103.215.127.30:6688/api.php/app/"
     },
     {
       "key": "taozi",

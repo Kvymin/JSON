@@ -12,32 +12,32 @@
     },
     {
        "key": "mqsp",
-       "name": "麻雀视频",
+       "name": "麻雀┃视频",
        "type": 3,
        "api": "csp_Mqsp"
    },
     {
        "key": "slys",
-       "name": "闪雷电影院",
+       "name": "闪雷┃电影院",
        "type": 3,
        "api": "csp_Shanlei"
    },
     {
         "key": "cms2",
-        "name": "4k备用",
+        "name": "4k┃备用",
         "type": 3,
         "api": "csp_AppYsV2",
         "ext": "http://103.215.127.30:6688/api.php/app/"
     },
     {
       "key": "taozi",
-      "name": "桃子",
+      "name": "桃子┃多线",
       "type": 3,
       "api": "csp_Taozi"
     },
     {
       "key": "reflect",
-      "name": "reflect",
+      "name": "reflect┃无广",
       "type": 3,
       "api": "csp_Reflect",
       "ext": "com.github.catvod.spider.Iktv$$$leospring"
@@ -130,7 +130,7 @@
     },
     {
       "key": "Market",
-      "name": "商店",
+      "name": "下载┃商店",
       "type": 3,
       "api": "csp_Market",
       "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/market.json?ref=main"
@@ -201,91 +201,6 @@
       "name": "leospring",
       "type": 1,
       "url": "http://159.75.157.29:75/yylx/?uid=66523&key=5433236&url="
-    }
-    /**,{
-      "name": "蹲街捏蚂蚁",
-      "type": 1,
-      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
-    {
-      "name": "免费分享",
-      "type": 1,
-      "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "sohu",
-          "搜狐",
-          "letv",
-          "乐视",
-          "mgtv",
-          "芒果",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905",
-          "NetFilx"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    } */
-  ],
-  "lives": [
-    {
-      "name":"ETH(JS)",
-      "api":"https://tang.hz.cz/js/ethtv.js",
-      "type":3,
-      "ua":"okhttp/4.12.0"
-    },
-    {
-      "name": "live",
-      "type": 0,
-      "url": "https://www.huichunniao.cn/xh/lib/live.txt",
-      "playerType": 1
-    },
-    {
-      "name": "XIUTAN",
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
-      "type": 0,
-      "url": "https://xhdwc.tk/xiutan.m3u"
-    },
-    {
-      "name": "IPV6",
-      "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "playerType": 1
     }
   ]
 }

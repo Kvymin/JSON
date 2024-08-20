@@ -1,12 +1,13 @@
 {
-  "spider": "https://already.free.hr/kvymin/TVRule/main/custom_spider.jar;md5;d163573f8ea1a791d35c308b6964fd33",
+  "spider": "https://already.free.hr/Kvymin/TVRule/main/custom_spider.jar;md5;d163573f8ea1a791d35c308b6964fd33",
+  "wallpaper": "",
   "sites": [
     {
       "key": "豆瓣",
       "name": "豆瓣┃评分",
       "type": 3,
       "api": "csp_Douban",
-      "ext": "https://already.free.hr/Kvymin/CatVodSpider/raw/main/json/douban.json"
+      "ext": "https://already.free.hr/Kvymin/CatVodSpider/main/json/douban.json"
     },
     {
       "key": "mqsp",

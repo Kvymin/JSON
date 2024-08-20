@@ -27,6 +27,13 @@
       "type": 3,
       "api": "csp_Xb6v",
       "ext": "http://www.xb6v.com/"
+    },    
+    {
+      "key": "Jianpian",
+      "name": "荐片┃磁力",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "ext": "http://112.124.0.131:20000"
     },
     {
       "key": "Wogg",

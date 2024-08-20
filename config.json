@@ -22,31 +22,10 @@
       "api": "csp_Shanlei"
     },
     {
-      "key": "cms2",
-      "name": "4k┃备用",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "ext": "http://103.215.127.30:6688/api.php/app/"
-    },
-    {
       "key": "taozi",
       "name": "桃子┃多线",
       "type": 3,
       "api": "csp_Taozi"
-    },
-    {
-      "key": "reflect",
-      "name": "reflect┃无广",
-      "type": 3,
-      "api": "csp_Reflect",
-      "ext": "com.github.catvod.spider.Iktv$$$leospring"
-    },
-    {
-      "key": "Jianpian",
-      "name": "荐片┃影视",
-      "api": "csp_Jianpian",
-      "type": 3,
-      "ext": "http://api2.rinhome.com"
     },
     {
       "key": "新6V",
@@ -57,15 +36,9 @@
     },
     {
       "key": "Dm84",
-      "name": "巴士┃动漫",
+      "name": "动漫┃巴士",
       "type": 3,
       "api": "csp_Dm84"
-    },
-    {
-      "key": "Ying",
-      "name": "樱花┃动漫",
-      "type": 3,
-      "api": "csp_Ying"
     },
     {
       "key": "Ysj",
@@ -74,29 +47,11 @@
       "api": "csp_Ysj"
     },
     {
-      "key": "Anime",
-      "name": "日本┃动漫",
-      "type": 3,
-      "api": "csp_Anime1"
-    },
-    {
       "key": "nuiyue",
       "name": "纽约┃XPath",
       "type": 3,
       "api": "csp_XPathFilter",
       "ext": "https://www.gitlink.org.cn/api/kvymin/TVRule/raw/json/nuiyue.json?ref=master"
-    },
-    {
-      "key": "csp_Yj1211",
-      "name": "网红┃直播",
-      "type": 3,
-      "api": "csp_Yj1211"
-    },
-    {
-      "key": "iktv",
-      "name": "音乐┃MTV",
-      "type": 3,
-      "api": "csp_Iktv"
     },
     {
       "key": "Kugou",

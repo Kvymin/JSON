@@ -1,5 +1,5 @@
 
-https://github.moeyy.xyz/https://raw.githubusercontent.com/kvymin/TVRule/main/config.json
+https://github.moeyy.xyz/https://raw.githubusercontent.com/kvymin/TVRule/main/CatVodOpen/config.json
 
 
 ##XBiubiu规则

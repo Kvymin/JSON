@@ -62,14 +62,14 @@
     },
     {
       "key": "4K yuluo",
-      "name": "4K┃雨落",
+      "name": "雨落┃多线",
       "type": 3,
       "api": "./open/lsq_open.js",
       "ext": "./quickjs/yuluo.js"
     },
     {
        "key": "4kav",
-       "name": "4K┃诶喂",
+       "name": "四酷┃多线",
        "type": 3,
        "api": "./open/lsq_open.js",
        "ext": "./quickjs/4kav.js"

@@ -64,14 +64,14 @@
       "key": "4K yuluo",
       "name": "4K┃雨落",
       "type": 3,
-      "api": "./lsq_open.js",
+      "api": "./open/lsq_open.js",
       "ext": "./quickjs/yuluo.js"
     },
     {
        "key": "4kav",
        "name": "4K┃诶喂",
        "type": 3,
-       "api": "./lsq_open.js",
+       "api": "./open/lsq_open.js",
        "ext": "./quickjs/4kav.js"
    },
     {

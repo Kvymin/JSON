@@ -1,5 +1,5 @@
 
-https://ghproxy.net/https://raw.githubusercontent.com/kvymin/TVRule/main/CatVodOpen/config.json
+https://ghproxy.net/https://raw.githubusercontent.com/kvymin/TVRule/main/drpy_dzlive/config.json
 
 
 ##XBiubiu规则
